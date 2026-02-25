@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "cross-env NODE_ENV=production node server.mjs",
     "lint": "next lint"
   },
   "dependencies": {
@@ -13,6 +13,8 @@
     "@radix-ui/react-dialog": "^1.1.15",
     "@radix-ui/react-label": "^2.1.8",
     "@radix-ui/react-separator": "^1.1.8",
+    "cross-env": "^10.1.0",
+    "dotenv": "^17.3.1",
     "next": "14.2.32",
     "nodemailer": "^8.0.1",
     "react": "^18",

@@ -1,0 +1,250 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* =====================================================
+   FOLIO FIRST — PREMIUM DESIGN TOKENS
+   ===================================================== */
+@layer base {
+  :root {
+    /* Brand Colors */
+    --gold: #d5ad5c;
+    --gold-light: #e8c97a;
+    --gold-dark: #b8923c;
+    --gold-muted: rgba(213, 173, 92, 0.12);
+    --dark: #232323;
+    --dark-2: #1a1a1a;
+    --surface: #fafaf8;
+    --surface-2: #f5f3ef;
+
+    /* Shadcn tokens */
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 40 55% 60%;
+    --primary-foreground: 0 0% 10%;
+    --secondary: 39 30% 96%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 39 60% 94%;
+    --accent-foreground: 35 80% 25%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 40 55% 60%;
+    --chart-1: 40 70% 55%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 0 0% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 40 55% 60%;
+    --primary-foreground: 0 0% 9%;
+    --secondary: 0 0% 14.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 0 0% 14.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 40 55% 60%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+/* =====================================================
+   PROSE STYLING — ARTICLE DETAIL PAGES
+   Premium editorial look for article body content
+   ===================================================== */
+@layer components {
+  .prose-folio {
+    @apply text-gray-700 leading-8 text-[17px];
+    max-width: 72ch;
+  }
+
+  .prose-folio p {
+    @apply mb-4 leading-8;
+  }
+
+  .prose-folio h2 {
+    @apply text-2xl md:text-3xl font-bold text-[#232323] mt-8 mb-4 pb-3;
+    border-bottom: 2px solid #d5ad5c;
+  }
+
+  .prose-folio h3 {
+    @apply text-xl md:text-2xl font-semibold text-[#232323] mt-6 mb-3;
+  }
+
+  .prose-folio h4 {
+    @apply text-lg font-semibold text-[#232323] mt-6 mb-3;
+  }
+
+  .prose-folio ul {
+    @apply mb-6 space-y-2.5;
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .prose-folio ol {
+    @apply mb-6 space-y-2.5 list-decimal;
+    padding-left: 1.5rem;
+  }
+
+  .prose-folio li {
+    @apply text-gray-700 leading-7;
+  }
+
+  .prose-folio ul > li {
+    @apply flex items-start gap-3;
+  }
+
+  .prose-folio ul > li::before {
+    content: "";
+    @apply block w-1.5 h-1.5 rounded-full bg-[#d5ad5c] mt-3 shrink-0;
+  }
+
+  .prose-folio li strong {
+    @apply text-[#232323] font-semibold;
+  }
+
+  .prose-folio strong {
+    @apply text-[#232323] font-semibold;
+  }
+
+  .prose-folio a {
+    @apply text-[#d5ad5c] font-medium hover:text-[#b8923c] underline underline-offset-2 transition-colors;
+  }
+
+  /* Premium blockquote */
+  .prose-folio blockquote {
+    @apply my-8 py-5 px-6 relative;
+    background: linear-gradient(135deg, #fdf9f0, #fef8e9);
+    border-left: 4px solid #d5ad5c;
+    border-radius: 0 12px 12px 0;
+  }
+
+  .prose-folio blockquote p {
+    @apply text-lg text-[#5a4a2a] italic font-medium leading-relaxed mb-0;
+  }
+
+  .prose-folio blockquote::before {
+    content: "\201C";
+    @apply absolute -top-2 left-4 text-6xl text-[#d5ad5c] font-serif leading-none opacity-40;
+  }
+
+  /* Tables — with mobile scroll wrapper */
+  .prose-folio table {
+    @apply w-full my-8 text-sm border-collapse;
+    border-radius: 12px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .prose-folio thead {
+    background: linear-gradient(135deg, #232323, #3a3a3a);
+  }
+
+  .prose-folio thead th {
+    @apply px-5 py-3.5 text-left text-white font-semibold text-sm tracking-wide;
+  }
+
+  .prose-folio tbody tr {
+    @apply border-b border-gray-100;
+  }
+
+  .prose-folio tbody tr:nth-child(even) {
+    @apply bg-amber-50/40;
+  }
+
+  .prose-folio tbody tr:hover {
+    @apply bg-amber-50/80 transition-colors;
+  }
+
+  .prose-folio tbody td {
+    @apply px-5 py-3.5 text-gray-700;
+  }
+
+  /* bg-blue-50 highlight boxes inside article content (legacy style update) */
+  .prose-folio .bg-blue-50 {
+    @apply my-8 p-6 rounded-2xl;
+    background: linear-gradient(135deg, #fffbf0, #fef8e4) !important;
+    border: 1px solid #d5ad5c40 !important;
+  }
+  .prose-folio .bg-blue-50 h4,
+  .prose-folio .bg-blue-50 .text-blue-900 {
+    @apply text-[#232323] !important;
+  }
+  .prose-folio .bg-blue-50 p,
+  .prose-folio .bg-blue-50 .text-blue-800 {
+    @apply text-[#555] !important;
+  }
+
+  /* Ensure images in articles are responsive */
+  .prose-folio img {
+    @apply rounded-2xl my-8 w-full object-cover;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* =====================================================
+   GLOBAL UTILITY ENHANCEMENTS
+   ===================================================== */
+@layer utilities {
+  /* Gold gradient text */
+  .text-gold-gradient {
+    background: linear-gradient(135deg, #d5ad5c, #e8c97a, #b8923c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Premium button base upgrade */
+  .btn-gold {
+    background: linear-gradient(135deg, #d5ad5c, #c49a45);
+    @apply text-white font-semibold shadow-lg transition-all duration-300;
+  }
+  .btn-gold:hover {
+    background: linear-gradient(135deg, #e8c97a, #d5ad5c);
+    @apply shadow-xl scale-[1.02] -translate-y-0.5;
+  }
+
+  /* Premium dark button */
+  .btn-dark {
+    @apply bg-[#232323] text-white font-semibold shadow-lg transition-all duration-300;
+  }
+  .btn-dark:hover {
+    @apply bg-[#3a3a3a] shadow-xl scale-[1.02] -translate-y-0.5;
+  }
+
+  /* Card hover effect */
+  .card-hover {
+    @apply transition-all duration-300;
+  }
+  .card-hover:hover {
+    @apply shadow-xl -translate-y-1;
+  }
+}

@@ -201,6 +201,10 @@ export default function Footer() {
           <div className="py-5 flex flex-col md:flex-row items-center justify-between gap-3 text-sm text-gray-500">
             <p className="text-center md:text-left">
               &copy; {currentYear} Folio First Consulting. All rights reserved.
+              <span className="mx-2 hidden md:inline opacity-20">|</span>
+              <span className="block md:inline mt-1 md:mt-0">
+                Design and develop by <a href="http://groxmedia.in/" target="_blank" rel="noopener noreferrer" className="text-yellow-500 hover:text-yellow-400 font-medium transition-colors">groxmedia</a>
+              </span>
             </p>
             <nav aria-label="Footer legal links" className="flex items-center gap-1">
               <Link

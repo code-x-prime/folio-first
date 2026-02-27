@@ -5,12 +5,12 @@ export const metadata = {
     title: "Contact Folio First Consulting | Free IEPF & Share Recovery Consultation",
     description: "Get expert help with IEPF claims, share transmission and dematerialisation. Contact Folio First Consulting for a free consultation.",
     alternates: {
-        canonical: `${siteConfig.url || 'https://foliofirst.in'}/contact`,
+        canonical: `${siteConfig.url || 'https://https://foliofirstconsulting.com'}/contact`,
     },
     openGraph: {
         title: "Contact Folio First Consulting | Free IEPF & Share Recovery Consultation",
         description: "Get expert help with IEPF claims, share transmission and dematerialisation. Contact Folio First Consulting for a free consultation.",
-        url: `${siteConfig.url || 'https://foliofirst.in'}/contact`,
+        url: `${siteConfig.url || 'https://https://foliofirstconsulting.com'}/contact`,
         siteName: "Folio First Consulting",
     },
     twitter: {
@@ -25,7 +25,7 @@ export const metadata = {
 };
 
 export default function ContactPage() {
-    const siteUrl = siteConfig.url || 'https://foliofirst.in';
+    const siteUrl = siteConfig.url || 'https://https://foliofirstconsulting.com';
 
     const localBusinessSchema = {
         "@context": "https://schema.org",

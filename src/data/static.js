@@ -2,7 +2,7 @@ import { FileText, BarChart, ShieldCheck, RefreshCw, UserCheck, Share2, UserSear
 
 export const siteConfig = {
     name: "Folio First Consulting",
-    url: "https://foliofirst.in",
+    url: "https://https://foliofirstconsulting.com",
     description: "India's leading consultancy for IEPF recovery, share transmission, and dematerialisation services.",
     email: "foliofirstconsulting@gmail.com",
     phone: "+91 9910908064",

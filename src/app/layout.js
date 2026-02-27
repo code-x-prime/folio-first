@@ -37,6 +37,9 @@ export const metadata = {
       },
     ],
   },
+  verification: {
+    google: "DJBl5bF6fFX601sYTrO-l7CT4B3XmXJkVQrbq9ma4GE",
+  },
   icons: {
     icon: "/favicon.ico",
   },

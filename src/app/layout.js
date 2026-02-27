@@ -24,7 +24,7 @@ export const metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://foliofirst.com",
+    url: "https://foliofirstconsulting.com",
     title: siteConfig.name,
     description: siteConfig.description,
     siteName: siteConfig.name,
@@ -43,7 +43,7 @@ export const metadata = {
   icons: {
     icon: "/favicon.ico",
   },
-  metadataBase: new URL('https://foliofirst.com'),
+  metadataBase: new URL('https://foliofirstconsulting.com'),
 };
 
 export default function RootLayout({ children }) {

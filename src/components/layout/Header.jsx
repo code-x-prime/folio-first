@@ -208,15 +208,20 @@ export default function Header() {
               ))}
             </nav>
 
-            {/* Desktop Right CTA */}
+            {/* Desktop Right CTA - WhatsApp */}
             <div className="hidden lg:flex items-center ml-4">
-              <Link href="/contact" className="relative group">
+              <a 
+                href={`https://wa.me/${siteConfig.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent('Hello! I would like a free consultation regarding my share/dividend recovery case. Please assist.')}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="relative group"
+              >
                 <div className="absolute -inset-1 bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 rounded-full blur opacity-40 group-hover:opacity-100 transition duration-500"></div>
-                <button className="relative px-7 py-2.5 bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-400 hover:to-yellow-500 text-white font-bold rounded-full shadow-[0_4px_14px_0_rgba(212,175,55,0.39)] hover:shadow-[0_6px_20px_rgba(212,175,55,0.23)] hover:-translate-y-0.5 transition-all duration-300 flex items-center gap-2">
+                <span className="relative px-7 py-2.5 bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-400 hover:to-yellow-500 text-white font-bold rounded-full shadow-[0_4px_14px_0_rgba(212,175,55,0.39)] hover:shadow-[0_6px_20px_rgba(212,175,55,0.23)] hover:-translate-y-0.5 transition-all duration-300 flex items-center gap-2">
                   Talk to Expert
                   <ArrowRight className="h-4 w-4" />
-                </button>
-              </Link>
+                </span>
+              </a>
             </div>
 
             {/* Mobile Menu Toggle button */}
@@ -343,12 +348,17 @@ export default function Header() {
                   </a>
                 </div>
 
-                <Link href="/contact" className="w-full">
+                <a 
+                  href={`https://wa.me/${siteConfig.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent('Hello! I would like a free consultation regarding my share/dividend recovery case. Please assist.')}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full"
+                >
                   <button className="w-full py-4 bg-gradient-to-r from-yellow-500 to-yellow-600 text-white font-bold rounded-xl shadow-[0_8px_20px_rgba(212,175,55,0.25)] text-lg hover:shadow-[0_8px_25px_rgba(212,175,55,0.35)] active:scale-95 transition-all duration-300 flex items-center justify-center gap-2">
                     Talk to Expert
                     <ArrowRight className="h-5 w-5" />
                   </button>
-                </Link>
+                </a>
               </motion.div>
 
               {/* Mobile decorative background element */}

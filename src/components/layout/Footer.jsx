@@ -3,7 +3,8 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import { ArrowRight, MapPin, Phone, Mail, MessageCircle, ChevronRight, CheckCircle2 } from 'lucide-react';
+import { MapPin, Phone, Mail, ChevronRight, CheckCircle2 } from 'lucide-react';
+import { FaFacebookF, FaXTwitter, FaLinkedinIn, FaInstagram } from 'react-icons/fa6';
 import { siteConfig, services } from '@/data/static';
 
 const quickLinks = [
@@ -20,7 +21,7 @@ export default function Footer() {
 
   return (
     <footer className="relative bg-[#1A1A1A] text-gray-300 pt-16 md:pt-24 border-t-2 border-yellow-500/20 overflow-hidden">
-      
+
       {/* Background Decorative Elements */}
       <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-yellow-500/50 to-transparent"></div>
       <div className="absolute -top-24 -left-24 w-96 h-96 bg-yellow-500/5 rounded-full blur-3xl pointer-events-none"></div>
@@ -29,7 +30,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
 
         {/* TOP CTA STRIP */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -38,7 +39,7 @@ export default function Footer() {
         >
           {/* CTA Background Shine Effect */}
           <div className="absolute inset-0 bg-white/10 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-in-out skew-x-12"></div>
-          
+
           <div className="relative z-10 text-center md:text-left">
             <h3 className="text-3xl md:text-4xl font-bold text-white mb-3">
               Start Your Share Recovery Process Today
@@ -49,9 +50,9 @@ export default function Footer() {
             </p>
           </div>
 
-          <a 
-            href={WhatsAppLink} 
-            target="_blank" 
+          <a
+            href={WhatsAppLink}
+            target="_blank"
             rel="noopener noreferrer"
             className="relative z-10 shrink-0"
           >
@@ -64,44 +65,51 @@ export default function Footer() {
 
         {/* MAIN FOOTER GRID */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 mb-16">
-          
+
           {/* Column 1: Brand */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1, duration: 0.5 }}
             className="space-y-6"
           >
-             <div className="relative w-48 h-16 ">
-                <Image 
-                  src="/Foliofirst-Logo2.png" 
-                  alt="Folio First Consulting" 
-                  fill
-                  className="object-contain object-left scale-90" 
-                />
-             </div>
-             <p className="leading-relaxed text-gray-400 text-[15px] pr-4">
-               India&apos;s premier advisory firm dedicated to resolving complex share-related issues. We specialize in IEPF recovery, share transmission, and dematerialisation services across India.
-             </p>
-             
-             {/* Social Links */}
-             <div className="flex items-center gap-3 pt-2">
-                {['Facebook', 'Twitter', 'LinkedIn', 'Instagram'].map((social) => (
-                  <a 
-                    key={social} 
-                    href="#" 
-                    className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-yellow-500/20 hover:border-yellow-500/50 hover:text-yellow-400 transition-all duration-300"
-                    aria-label={`Follow us on ${social}`}
-                  >
-                    <span className="text-xs font-semibold">{social[0]}</span>
-                  </a>
-                ))}
-             </div>
+            <div className="relative w-48 h-16 ">
+              <Image
+                src="/Foliofirst-Logo2.png"
+                alt="Folio First Consulting"
+                fill
+                className="object-contain object-left scale-90"
+              />
+            </div>
+            <p className="leading-relaxed text-gray-400 text-[15px] pr-4">
+              India&apos;s premier advisory firm dedicated to resolving complex share-related issues. We specialize in IEPF recovery, share transmission, and dematerialisation services across India.
+            </p>
+
+            {/* Social Links - Facebook, Twitter/X, LinkedIn, Instagram */}
+            <div className="flex items-center gap-3 pt-2">
+              {[
+                { name: 'Facebook', Icon: FaFacebookF, href: siteConfig.socials?.facebook || '#' },
+                { name: 'X (Twitter)', Icon: FaXTwitter, href: siteConfig.socials?.twitter || '#' },
+                { name: 'LinkedIn', Icon: FaLinkedinIn, href: siteConfig.socials?.linkedin || '#' },
+                { name: 'Instagram', Icon: FaInstagram, href: siteConfig.socials?.instagram || '#' },
+              ].map((social) => (
+                <a
+                  key={social.name}
+                  href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-yellow-500/20 hover:border-yellow-500/50 hover:text-yellow-400 transition-all duration-300"
+                  aria-label={`Follow us on ${social.name}`}
+                >
+                  <social.Icon className="h-5 w-5" />
+                </a>
+              ))}
+            </div>
           </motion.div>
 
           {/* Column 2: Quick Links */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -115,8 +123,8 @@ export default function Footer() {
             <ul className="space-y-4">
               {quickLinks.map((link) => (
                 <li key={link.name}>
-                  <Link 
-                    href={link.href} 
+                  <Link
+                    href={link.href}
                     className="group flex items-center text-gray-400 hover:text-yellow-400 transition-colors duration-300"
                   >
                     <ChevronRight className="h-4 w-4 mr-2 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all text-yellow-500" />
@@ -128,7 +136,7 @@ export default function Footer() {
           </motion.div>
 
           {/* Column 3: Services */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -141,8 +149,8 @@ export default function Footer() {
             <ul className="space-y-4">
               {services.slice(0, 5).map((service) => (
                 <li key={service.slug}>
-                  <Link 
-                    href={`/services/${service.slug}`} 
+                  <Link
+                    href={`/services/${service.slug}`}
                     className="group flex items-center text-gray-400 hover:text-yellow-400 transition-colors duration-300"
                   >
                     <ChevronRight className="h-4 w-4 mr-2 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all text-yellow-500" />
@@ -154,7 +162,7 @@ export default function Footer() {
           </motion.div>
 
           {/* Column 4: Contact Info */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -201,10 +209,6 @@ export default function Footer() {
           <div className="py-5 flex flex-col md:flex-row items-center justify-between gap-3 text-sm text-gray-500">
             <p className="text-center md:text-left">
               &copy; {currentYear} Folio First Consulting. All rights reserved.
-              <span className="mx-2 hidden md:inline opacity-20">|</span>
-              <span className="block md:inline mt-1 md:mt-0">
-                Design and develop by <a href="http://groxmedia.in/" target="_blank" rel="noopener noreferrer" className="text-yellow-500 hover:text-yellow-400 font-medium transition-colors">groxmedia</a>
-              </span>
             </p>
             <nav aria-label="Footer legal links" className="flex items-center gap-1">
               <Link

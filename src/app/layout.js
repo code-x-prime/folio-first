@@ -2,7 +2,6 @@ import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
-import FloatingButtons from "@/components/layout/FloatingButtons";
 import { siteConfig } from "@/data/static";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
@@ -55,7 +54,6 @@ export default function RootLayout({ children }) {
           {children}
         </main>
         <Footer />
-        <FloatingButtons />
       </body>
     </html>
   );

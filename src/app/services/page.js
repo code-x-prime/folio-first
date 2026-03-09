@@ -5,12 +5,12 @@ export const metadata = {
     title: "Our Services | IEPF Recovery, Share Transmission & Dematerialisation | Folio First",
     description: "Explore our expert financial consulting services: IEPF unclaimed dividend recovery, share transmission to legal heirs, dematerialisation of physical shares, and more. Free consultation available.",
     alternates: {
-        canonical: `${siteConfig.url || 'https://https://foliofirstconsulting.com'}/services`,
+        canonical: `${siteConfig.url || 'https://foliofirstconsulting.com'}/services`,
     },
     openGraph: {
         title: "Our Services | IEPF Recovery, Share Transmission & Dematerialisation",
         description: "Explore expert financial consulting services: IEPF unclaimed dividend recovery, share transmission to legal heirs, and dematerialisation of physical shares.",
-        url: `${siteConfig.url || 'https://https://foliofirstconsulting.com'}/services`,
+        url: `${siteConfig.url || 'https://foliofirstconsulting.com'}/services`,
         siteName: "Folio First Consulting",
     },
     twitter: {

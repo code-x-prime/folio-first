@@ -91,7 +91,7 @@ export async function POST(req) {
                     </div>
                     <div class="footer">
                         &copy; ${new Date().getFullYear()} Folio First Lead Management. All Rights Reserved.<br/>
-                        <a href="https://https://foliofirstconsulting.com">https://foliofirstconsulting.com</a>
+                        <a href="https://foliofirstconsulting.com">https://foliofirstconsulting.com</a>
                     </div>
                 </div>
             </body>
@@ -128,7 +128,7 @@ export async function POST(req) {
                     <div class="footer">
                         <strong>Folio First Consulting</strong><br/>
                         Expert Solutions for IEPF Recovery & Share Transmission<br/><br/>
-                        <a href="https://https://foliofirstconsulting.com">Visit Website</a> | <a href="mailto:support@https://foliofirstconsulting.com">Contact Support</a><br/><br/>
+                        <a href="https://foliofirstconsulting.com">Visit Website</a> | <a href="mailto:support@foliofirstconsulting.com">Contact Support</a><br/><br/>
                         &copy; ${new Date().getFullYear()} Folio First Consulting. All Rights Reserved.
                     </div>
                 </div>

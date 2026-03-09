@@ -5,12 +5,12 @@ export const metadata = {
     title: "Financial Insights & News | Articles by Folio First Consulting",
     description: "Stay informed with expert articles on IEPF regulations, share recovery, SEBI guidelines, and wealth management strategies from India's leading financial consulting firm.",
     alternates: {
-        canonical: `${siteConfig.url || 'https://https://foliofirstconsulting.com'}/articles`,
+        canonical: `${siteConfig.url || 'https://foliofirstconsulting.com'}/articles`,
     },
     openGraph: {
         title: "Financial Insights & News | Articles by Folio First Consulting",
         description: "Expert articles on IEPF regulations, share recovery, SEBI guidelines, and wealth management from India's leading financial consulting firm.",
-        url: `${siteConfig.url || 'https://https://foliofirstconsulting.com'}/articles`,
+        url: `${siteConfig.url || 'https://foliofirstconsulting.com'}/articles`,
         siteName: "Folio First Consulting",
     },
     twitter: {

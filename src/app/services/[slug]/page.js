@@ -12,7 +12,7 @@ export async function generateMetadata({ params }) {
     const service = services.find((s) => s.slug === params.slug);
     if (!service) return { title: "Service Not Found" };
 
-    const siteUrl = siteConfig.url || 'https://https://foliofirstconsulting.com';
+    const siteUrl = siteConfig.url || 'https://foliofirstconsulting.com';
     const canonicalUrl = `${siteUrl}/services/${service.slug}`;
 
     return {
@@ -66,7 +66,7 @@ export default function ServicePage({ params }) {
         notFound();
     }
 
-    const siteUrl = siteConfig.url || 'https://https://foliofirstconsulting.com';
+    const siteUrl = siteConfig.url || 'https://foliofirstconsulting.com';
 
     // JSON-LD for Service
     const serviceSchema = {

@@ -12,7 +12,7 @@ export async function generateMetadata({ params }) {
     const article = articles.find((a) => a.slug === params.slug);
     if (!article) return { title: "Article Not Found" };
 
-    const siteUrl = siteConfig.url || 'https://https://foliofirstconsulting.com';
+    const siteUrl = siteConfig.url || 'https://foliofirstconsulting.com';
     const canonicalUrl = `${siteUrl}/articles/${article.slug}`;
     const heroImage = article.featuredImage || `https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?q=80&w=1600&auto=format&fit=crop`;
 
@@ -60,7 +60,7 @@ export default function ArticlePage({ params }) {
         notFound();
     }
 
-    const siteUrl = siteConfig.url || 'https://https://foliofirstconsulting.com';
+    const siteUrl = siteConfig.url || 'https://foliofirstconsulting.com';
     const heroImage = article.featuredImage || `https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?q=80&w=1600&auto=format&fit=crop`;
     const publishDate = new Date(article.date).toISOString() || new Date().toISOString();
 

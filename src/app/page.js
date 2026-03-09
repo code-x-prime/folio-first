@@ -5,13 +5,13 @@ export const metadata = {
   title: "Folio First Consulting | IEPF Recovery & Share Transmission Experts India",
   description: "India's most trusted financial consulting firm for IEPF unclaimed dividend recovery, share transmission to legal heirs, and dematerialisation of physical shares. Free consultation. 10+ years experience. 500+ cases resolved.",
   alternates: {
-    canonical: `${siteConfig.url || 'https://https://foliofirstconsulting.com'}`,
+    canonical: `${siteConfig.url || 'https://foliofirstconsulting.com'}`,
   },
   keywords: "IEPF recovery, unclaimed dividend, share transmission, dematerialisation, financial consulting India, Folio First",
   openGraph: {
     title: "Folio First Consulting | IEPF Recovery & Share Transmission Experts",
     description: "Recover unclaimed dividends, transfer inherited shares, and dematerialise physical certificates with India's most trusted advisory. Free consultation.",
-    url: `${siteConfig.url || 'https://https://foliofirstconsulting.com'}`,
+    url: `${siteConfig.url || 'https://foliofirstconsulting.com'}`,
     siteName: "Folio First Consulting",
     type: "website",
   },
@@ -27,7 +27,7 @@ export const metadata = {
 };
 
 export default function HomePage() {
-  const siteUrl = siteConfig.url || 'https://https://foliofirstconsulting.com';
+  const siteUrl = siteConfig.url || 'https://foliofirstconsulting.com';
 
   const organizationSchema = {
     "@context": "https://schema.org",

@@ -133,7 +133,7 @@ export default function ContactClient() {
                             {/* Contact Info Cards */}
                             <div className="space-y-4">
                                 {[
-                                    { icon: <Phone className="h-5 w-5" />, title: "Call Us", content: siteConfig.phone, link: `tel:${siteConfig.phone}` },
+                                    { icon: <Phone className="h-5 w-5" />, title: "WhatsApp", content: "Chat with us", link: `https://wa.me/${siteConfig.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent('Hello! I would like a free consultation regarding my share/dividend recovery case. Please assist.')}` },
                                     { icon: <Mail className="h-5 w-5" />, title: "Email Us", content: siteConfig.email, link: `mailto:${siteConfig.email}` },
                                     { icon: <MapPin className="h-5 w-5" />, title: "Visit Us", content: siteConfig.address, link: null },
                                     { icon: <Clock className="h-5 w-5" />, title: "Business Hours", content: "Mon – Sat: 10:00 AM – 7:00 PM", link: null },
@@ -146,7 +146,7 @@ export default function ContactClient() {
                                             <div>
                                                 <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">{item.title}</div>
                                                 {item.link ? (
-                                                    <a href={item.link} className="font-bold text-[#232323] hover:text-[#d5ad5c] transition-colors text-base">
+                                                    <a href={item.link} target={item.link.startsWith('http') ? '_blank' : undefined} rel={item.link.startsWith('http') ? 'noopener noreferrer' : undefined} className="font-bold text-[#232323] hover:text-[#d5ad5c] transition-colors text-base">
                                                         {item.content}
                                                     </a>
                                                 ) : (

@@ -1,9 +1,11 @@
 import { NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
+import { siteConfig } from '@/data/static';
 
 export async function POST(req) {
   try {
     const body = await req.json();
+    const whatsappHref = `https://wa.me/${siteConfig.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent('Hello! I would like a free consultation regarding my share/dividend recovery case. Please assist.')}`;
     const { name, mobile, email, service, message, source } = body;
 
     // Validate fields
@@ -123,7 +125,7 @@ export async function POST(req) {
                         </div>
 
                         <p style="font-size: 15px; color: #444; margin-bottom: 25px;">Need immediate assistance? You can reach us directly on WhatsApp.</p>
-                        <a href="https://wa.me/919910908064" class="btn">Connect via WhatsApp</a>
+                        <a href="${whatsappHref}" class="btn">Connect via WhatsApp</a>
                     </div>
                     <div class="footer">
                         <strong>Folio First Consulting</strong><br/>

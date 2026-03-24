@@ -90,7 +90,7 @@ const sections = [
         title: "10. Contact Us",
         content: [
             `If you have questions about this Privacy Policy, please contact us at: ${siteConfig.email}`,
-            `Phone: ${siteConfig.phone}`,
+            "Phone: Available via WhatsApp or contact form on request.",
             `Address: ${siteConfig.address}`,
         ],
     },

@@ -185,8 +185,8 @@ export default function Footer() {
                 <div className="h-10 w-10 shrink-0 rounded-full bg-white/5 border border-white/10 flex items-center justify-center group-hover:bg-yellow-500/20 group-hover:border-yellow-500/50 group-hover:text-yellow-400 transition-all">
                   <Phone className="h-5 w-5" />
                 </div>
-                <a href={`tel:${siteConfig.phone}`} className="text-gray-400 hover:text-white transition-colors pt-1">
-                  {siteConfig.phone}
+                <a href={WhatsAppLink} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors pt-1">
+                  WhatsApp
                 </a>
               </li>
               <li className="flex items-center gap-4 group">

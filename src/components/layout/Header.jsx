@@ -58,10 +58,10 @@ export default function Header() {
               {siteConfig.email}
             </a>
             <div className="flex items-center gap-4">
-              <a href={`tel:${siteConfig.phone}`} className="flex items-center gap-2 hover:text-yellow-400 transition-colors">
+              <Link href="/contact" className="flex items-center gap-2 hover:text-yellow-400 transition-colors">
                 <Phone className="h-3.5 w-3.5" />
-                {siteConfig.phone}
-              </a>
+                Contact us
+              </Link>
               <span className="w-px h-3 bg-white/20"></span>
               <a 
                 href={`https://wa.me/${siteConfig.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent('Hello! I would like a free consultation regarding my share/dividend recovery case. Please assist.')}`} 
@@ -71,7 +71,7 @@ export default function Header() {
                 title="Chat with us on WhatsApp"
               >
                 <MessageCircle className="h-3.5 w-3.5" />
-                WhatsApp Quick Link
+                WhatsApp
               </a>
             </div>
           </div>
@@ -334,12 +334,12 @@ export default function Header() {
                 className="mt-auto pt-10 flex flex-col gap-5 relative z-10"
               >
                 <div className="bg-gray-50 rounded-2xl p-4 flex flex-col gap-3 border border-gray-100/80 shadow-inner">
-                  <a href={`tel:${siteConfig.phone}`} className="flex items-center gap-3 text-sm text-gray-700 font-medium">
+                  <Link href="/contact" className="flex items-center gap-3 text-sm text-gray-700 font-medium">
                     <div className="h-10 w-10 rounded-full bg-white flex items-center justify-center shadow-sm text-primary">
                       <Phone className="h-4 w-4" />
                     </div>
-                    {siteConfig.phone}
-                  </a>
+                    Contact us
+                  </Link>
                   <a href={`mailto:${siteConfig.email}`} className="flex items-center gap-3 text-sm text-gray-700 font-medium">
                     <div className="h-10 w-10 rounded-full bg-white flex items-center justify-center shadow-sm text-primary">
                       <Mail className="h-4 w-4" />

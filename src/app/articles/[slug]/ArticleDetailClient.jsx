@@ -255,9 +255,9 @@ export default function ArticleDetailClient({ article, relatedArticles, readingT
                                 size="lg" 
                                 variant="outline" 
                                 className="bg-transparent border-2 border-white text-white hover:bg-white/10 h-14 sm:h-16 rounded-full px-8 sm:px-10 text-lg sm:text-xl font-bold transition-all w-full sm:w-auto backdrop-blur-md"
-                                onClick={() => window.location.href = `tel:${siteConfig.phone}`}
+                                asChild
                             >
-                                Call {siteConfig.phone}
+                                <Link href="/contact">Contact us</Link>
                             </Button>
                         </div>
                         </div>

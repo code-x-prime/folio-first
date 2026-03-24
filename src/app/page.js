@@ -34,7 +34,6 @@ export default function HomePage() {
     "@type": "FinancialService",
     "name": siteConfig.name,
     "url": siteUrl,
-    "telephone": siteConfig.phone,
     "email": siteConfig.email,
     "address": {
       "@type": "PostalAddress",

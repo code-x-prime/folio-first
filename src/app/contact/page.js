@@ -31,7 +31,6 @@ export default function ContactPage() {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": siteConfig.name,
-        "telephone": siteConfig.phone,
         "email": siteConfig.email,
         "address": {
             "@type": "PostalAddress",

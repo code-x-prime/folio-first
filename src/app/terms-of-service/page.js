@@ -96,7 +96,7 @@ const sections = [
         title: "11. Contact Us",
         content: [
             `For questions regarding these Terms of Service, contact us at: ${siteConfig.email}`,
-            `Phone: ${siteConfig.phone}`,
+            "Phone: Available via WhatsApp or contact form on request.",
             `Address: ${siteConfig.address}`,
         ],
     },

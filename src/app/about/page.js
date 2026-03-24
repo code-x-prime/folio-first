@@ -1,5 +1,6 @@
 import { siteConfig, faqs } from "@/data/static";
 import Image from 'next/image';
+import Link from 'next/link';
 import { Users, Target, ShieldCheck, Clock, MessageCircle, FileText, TrendingUp } from "lucide-react";
 
 export const metadata = {
@@ -219,12 +220,12 @@ export default function AboutPage() {
                                 >
                                     <MessageCircle className="h-6 w-6 text-[#25D366]" strokeWidth={2.5} /> Talk to an Expert
                                 </a>
-                                <a
-                                    href={`tel:${siteConfig.phone}`}
+                                <Link
+                                    href="/contact"
                                     className="inline-flex items-center justify-center bg-transparent border-2 border-white text-white hover:bg-white/10 h-14 sm:h-16 rounded-full px-8 sm:px-10 text-lg sm:text-xl font-bold transition-all w-full sm:w-auto backdrop-blur-md"
                                 >
-                                    Call {siteConfig.phone}
-                                </a>
+                                    Contact us
+                                </Link>
                             </div>
                         </div>
                     </div>

@@ -280,9 +280,9 @@ export default function ServiceDetailClient({ service, services }) {
                                         </a>
                                     </Button>
                                     <Button variant="outline" className="w-full border-white/20 hover:bg-white/10 text-white bg-transparent h-14 rounded-full text-base font-bold transition-all backdrop-blur-sm" asChild>
-                                        <a href={`tel:${siteConfig.phone}`}>
-                                            <Clock className="mr-2 h-4 w-4" /> Call {siteConfig.phone}
-                                        </a>
+                                        <Link href="/contact">
+                                            <Clock className="mr-2 h-4 w-4" /> Contact us
+                                        </Link>
                                     </Button>
                                 </div>
 
@@ -357,9 +357,9 @@ export default function ServiceDetailClient({ service, services }) {
                                 size="lg" 
                                 variant="outline" 
                                 className="bg-transparent border-2 border-white text-white hover:bg-white/10 h-14 sm:h-16 rounded-full px-8 sm:px-10 text-lg sm:text-xl font-bold transition-all w-full sm:w-auto backdrop-blur-md"
-                                onClick={() => window.location.href = `tel:${siteConfig.phone}`}
+                                asChild
                             >
-                                Call {siteConfig.phone}
+                                <Link href="/contact">Contact us</Link>
                             </Button>
                         </div>
                         </div>

@@ -1,4 +1,4 @@
-import { FileText, BarChart, ShieldCheck, RefreshCw, UserCheck, Share2, UserSearch, Scale, Globe, Briefcase, TrendingUp } from "lucide-react";
+import { FileText, BarChart, ShieldCheck, RefreshCw, Scale, Globe, TrendingUp } from "lucide-react";
 
 export const siteConfig = {
     name: "Folio First Consulting",
@@ -16,290 +16,6 @@ export const siteConfig = {
 };
 
 export const services = [
-    {
-        id: "dematerialisation",
-        slug: "dematerialisation-of-shares",
-        icon: BarChart,
-        title: "Share Dematerialisation Process",
-        shortDescription: "We convert your physical shares to Demat with a 99% success rate. Fast, secure, and fully compliant with SEBI & NSDL/CDSL regulations.",
-        heroImage: "/images/Dematerialisation.jpg",
-        overview: "Dematerialisation of shares is the process of converting physical share certificates into electronic form, facilitating seamless share trading and transfer. In India, this is managed through depositories like NSDL and CDSL. Holding physical shares poses risks of loss, theft, and fraud. Dematerialisation eliminates these risks, ensuring ease of buying and selling while boosting market efficiency. At Folio First Consulting, we assist you in converting your physical shares to Demat form seamlessly, ensuring compliance and speed.",
-        challenges: [
-            { title: "Lack of Awareness", description: "Many investors are unaware of the process and benefits, leading to confusion and delays." },
-            { title: "Documentation Errors", description: "Incomplete details or mismatched signatures on the DRF often cause rejections." },
-            { title: "Technical Glitches", description: "System failures or connectivity issues with DPs can disrupt the conversion process." },
-            { title: "Regulatory Compliance", description: "Complex guidelines from SEBI and MCA require strict adherence to avoid application rejection." },
-            { title: "Delays in Processing", description: "High volume of requests and ineffective handling can prolong the conversion time." }
-        ],
-        whoNeeds: [
-            "Individual Investors (Residents & NRIs)",
-            "Companies holding physical shares",
-            "HUFs & Trusts",
-            "Banks & Financial Institutions",
-            "Foreign Portfolio Investors (FPIs)"
-        ],
-        prerequisites: [
-            { title: "Active Demat Account", description: "You must have a registered Demat account with a Depository Participant (DP)." },
-            { title: "DRF Submission", description: "Submission of a filled Dematerialisation Request Form (DRF) is mandatory." },
-            { title: "Original Certificates", description: "Physical share certificates must be surrendered for conversion." },
-            { title: "Signature Verification", description: "Signatures on certificates must match company records." }
-        ],
-        benefits: [
-            "Easy and Convenient: Access holdings anywhere, anytime.",
-            "Secure and Risk-Free: Eliminates loss, theft, or damage risks.",
-            "Effortless Fund Transfers: Quick electronic transfers via linked bank accounts.",
-            "Paperless and Eco-Friendly: Reduces administrative burden and paper usage.",
-            "Loan Against Securities: Use Demat holdings as collateral for loans.",
-            "Quick Corporate Benefits: Automatic credit of dividends and bonus shares.",
-            "Easy Portfolio Monitoring: Track performance and holdings in real-time.",
-            "Versatile Investment Options: Hold equities, mutual funds, and bonds in one place."
-        ],
-        documents: [
-            "Dematerialisation Request Form (DRF)",
-            "Original Physical Share Certificates",
-            "Self-attested PAN Card",
-            "Aadhar Card or Address Proof",
-            "Client Master List (CML)",
-            "Two Passport-sized Photographs",
-            "Registered Nominee Details",
-            "Death Certificate & Succession Certificate (For Inherited Shares)"
-        ],
-        process: [
-            { title: "Selection of DP", description: "Choosing a Depository Participant (DP) to open your Demat account.", duration: "1-2 Days" },
-            { title: "Filling Demat Account Form", description: "Submitting the application form with required KYC documents.", duration: "1-2 Days" },
-            { title: "Document Verification", description: "Validating address, identity proof, and bank details.", duration: "3-5 Days" },
-            { title: "Processing Request", description: "Verification of physical certificates and DRF by the RTA.", duration: "5-7 Days" },
-            { title: "Completion & Credit", description: "Shares are converted to electronic form and credited to your account.", duration: "7-10 Days" }
-        ],
-        guidelines: [
-            "Mandatory for Private Companies (except Small Companies).",
-            "Required for any share transfers or capital structure alterations.",
-            "Companies must obtain an ISIN for electronic transactions.",
-            "NSDL and CDSL handle the process as SEBI-registered depositories."
-        ],
-        penalties: [
-            "Monetary Penalty on Company: Up to ₹2,00,000.",
-            "Penalty on Officers: Up to ₹50,000.",
-            "Loss of Shareholder Rights (Dividend & Voting).",
-            "Restriction on Share Issuance and Transfer."
-        ],
-        whyChooseUs: [
-            "10+ Years of Industry Experience",
-            "Helped Over 5000+ Investors",
-            "99% Accuracy Rate with Minimal Errors",
-            "30% Quicker Turnaround Time",
-            "End-to-End SEBI Compliant Process",
-            "Transparent & Zero Hidden Charges"
-        ],
-        faq: [
-            { question: "What is dematerialisation of shares?", answer: "It is the process of converting physical share certificates into electronic form to facilitate seamless trading and security." },
-            { question: "Is dematerialisation mandatory?", answer: "Yes, for transferring shares and for most private companies, dematerialisation is now mandatory under MCA and SEBI rules." },
-            { question: "What is a DRF?", answer: "Dematerialisation Request Form (DRF) is the document submitted to your DP to initiate the conversion of physical shares." },
-            { question: "How long does the process take?", answer: "Typically 15-30 days, but with our assistance, we aim to expedite verification and processing." }
-        ]
-    },
-    {
-        id: "iepf-recovery",
-        slug: "recovery-of-unclaimed-dividend-iepf",
-        icon: UserSearch,
-        title: "Recovery of Unclaimed Dividends from IEPF",
-        shortDescription: "Experience an easy, timely, and hassle-free recovery of unclaimed dividends from IEPF. Claim your unclaimed dividends from IEPF with Folio First experts.",
-        heroImage: "/images/recovery-unclaimed-dividend.jpg",
-        overview: "The recovery of unclaimed dividends from IEPF (Investor Education and Protection Fund) is the process of reclaiming dividends. The process involves reclaiming dividends that remain unclaimed for seven straight years, after which they get transferred to the IEPF.\n\nHowever, to claim dividends from IEPF, shareholders or their legal heirs must fill out Form IEPF-5 and submit it along with the required documents. It is important to follow the mandated process for seamless recovery, including company and IEPF Authority verification before refunding the amount. The process of IEPF unclaimed dividend is complex, but professional consultants at Folio First can ensure a hassle-free recovery by simplifying the overall process for you.",
-        importance: "The recovery of unclaimed dividends from IEPF is important as it ensures the rightful ownership of the original shareholders. Besides, the process to recover dividends from IEPF helps prevent financial loss and restores the investment value. If the unclaimed dividends are not claimed, the shareholders may lose the amount accrued permanently. The shareholder can utilize the accrued dividend amount for reinvestment or to increase their savings.\n\nLegal heirs of deceased shareholders can claim the unclaimed dividends as a part of the assets inherited. While the recovery process ensures the amount reaches its rightful owners, it is complicated and mandates adherence to legal and regulatory requirements. However, if shareholders can take timely actions to claim their dividends, they can prevent the complexity and enjoy a seamless and hassle-free claim process.",
-        challenges: [
-            { title: "Extensive Documentation", description: "The process mandates submitting various documents including PAN, Aadhar, and legal heir certificates. Discrepancies can lead to delays or rejections." },
-            { title: "Lengthy Verification Process", description: "Multi-step verification by companies and IEPF Authority scrutinizes the claim thoroughly, extending processing time." },
-            { title: "Legal Complexities", description: "Providing succession certificates, affidavits, or probate is time-consuming and expensive for legal heirs." },
-            { title: "Rejections", description: "Incorrectly filled forms, missing documents, and signature mismatches often lead to claim rejection." },
-            { title: "Lack of Awareness", description: "Many shareholders are unaware of their unclaimed dividends or the recovery process, leading to delays and risk of fund loss." }
-        ],
-        procedure: "detailed", // Indicator for internal logic if needed
-        process: [
-            { title: "IEPF-5 Form Submission", description: "We assist in filling out and submitting the IEPF-5 form online via the MCA portal along with required details.", duration: "1-2 Days" },
-            { title: "Physical Document Submission", description: "Sending the signed documents to the company’s Nodal Officer for verification.", duration: "7-15 Days" },
-            { title: "Company Verification & Report Filing", description: "Nodal Officer reviews the submitted form/documents and submits an E-Verification Report to IEPF Authority.", duration: "15-30 Days" },
-            { title: "IEPF Authority Review & Approval", description: "The IEPF Authority examines the documents and may request additional proofs if needed.", duration: "60-90 Days" },
-            { title: "Fund Transfer to Claimant", description: "Once approved, the reclaimed amount is transferred directly to the claimant's bank account.", duration: "15-30 Days" }
-        ],
-        documents: [
-            "Copy of PAN Card",
-            "Copy of Aadhar Card / Address Proof",
-            "Client Master List (CML) from the Depository",
-            "Shareholding Proof - Demat/Physical Share Certificate",
-            "Dividend Warrants (If available)",
-            "Bank Account Proof - Cancelled Cheque/Passbook",
-            "Death Certificate (For legal heirs)",
-            "Succession Certificate/Will/Probate (If applicable)",
-            "Indemnity Bond & Affidavit (As per IEPF requirements)"
-        ],
-        whoNeeds: [
-            { title: "Original Shareholders", description: "People who did not claim dividends for seven years, causing the transfer to IEPF." },
-            { title: "Legal Heirs", description: "Successors of deceased shareholders after validating identity and submitting succession proofs." },
-            { title: "Nominees", description: "Nominees registered by original shareholders eligible after submitting valid proof." },
-            { title: "Joint Shareholders", description: "Co-holders eligible if the primary shareholder has not claimed the same." },
-            { title: "Authorized Representatives", description: "Guardians or power of attorney holders can claim on behalf of applicants." }
-        ],
-        benefits: [
-            { title: "Reclaims Ownership", description: "Ensures dividend is transferred to rightful owners, preventing permanent loss." },
-            { title: "Enhances Financial Security", description: "Boosts personal finances, adding to savings or reinvestment opportunities." },
-            { title: "Prevents Fund Lapse", description: "Prevents permanent loss of funds transferred to IEPF if not reclaimed in time." },
-            { title: "Restores Investment Value", description: "Helps recover unclaimed investment returns, leveraging financial benefits." },
-            { title: "Simplifies Estate Settlement", description: "Eases asset distribution for legal heirs of deceased shareholders." },
-            { title: "Avoids Inconvenience", description: "Professional help reduces paperwork and procedural delays of the complex process." }
-        ],
-        prerequisites: [
-            { title: "IEPF-5 Form", description: "Completing and submitting the IEPF-5 form to initiate the claim online." },
-            { title: "Identity Proof", description: "Submitting PAN card, Aadhaar card, and proof of address." },
-            { title: "Shareholding Proof", description: "Submitting Demat account details or physical share certificates." },
-            { title: "Bank & Entitlement Proof", description: "Attaching a cancelled cheque and entitlement letter." },
-            { title: "Legal Documents", description: "Furnishing affidavits, indemnity bonds, or succession certificates if applicable." }
-        ],
-        servicesOffered: [
-            "IEPF Unclaimed Dividend Recovery Assistance",
-            "Expert Guidance Throughout the Dividend Claims Recovery Process",
-            "Helping you Fill Out the Form IEPF-5 Accurately",
-            "Paperwork Assistance for Streamlined Dividend Recovery Claim",
-            "Liaising with Officials to Expedite the Verification Process",
-            "Legal Guidance and Support for Complicated Cases",
-            "Tracking Claims Progress and Sharing Updates",
-            "On-time Follow-ups to Avert Unwarranted Delays",
-            "Comprehensive Services to Streamline the Recovery of Dividends"
-        ],
-        whyChooseUs: [
-            "10+ Years of Industry Experience",
-            "Recovered Dividend Value worth ₹100 Crore+",
-            "Resolved 10,000+ Dividend Claims",
-            "98% Success Rate in Handling Recovery",
-            "Quick Turnaround Time of 30%",
-            "Dedicated IEPF Recovery Agents",
-            "Comprehensive Assistance",
-            "Support for Error Rectification"
-        ],
-        faq: [
-            { question: "How can I claim dividend from IEPF?", answer: "You can claim by filling out the IEPF-5 form on the IEPF portal, attaching documents, and submitting online. Physical copies must also be sent to the company’s Nodal Officer." },
-            { question: "What happens if the dividend is not claimed for seven years?", answer: "Dividends unclaimed for seven straight years are transferred to the Investor Education and Protection Fund (IEPF)." },
-            { question: "What documents do I need to submit?", answer: "Required documents include IEPF-5 form, PAN, Aadhar, share certificate/CML, cancelled cheque, and legal documents like indemnity bond/affidavit." },
-            { question: "How long does the process take?", answer: "The entire process typically takes 3-6 months, involving verification by the company (15-30 days) and approval by IEPF Authority (60-90 days)." },
-            { question: "What should I do if my IEPF-5 claim is rejected?", answer: "If rejected, you can rectify the errors (like missing docs or signature mismatch) and refile the form. Our experts can assist in error rectification." }
-        ]
-    },
-    {
-        id: "transmission",
-        slug: "transmission-of-shares",
-        icon: UserCheck,
-        title: "Transmission of Shares",
-        shortDescription: "Seamless transfer of shares to legal heirs in case of the shareholder's demise.",
-        heroImage: "/images/transmission-shares.jpg",
-        overview: "Transmission of shares is the legal process of transferring ownership of securities to legal heirs upon the death of the original holder. This process can be daunting due to documentation requirements like Succession Certificates. We provide compassionate and expert legal assistance to ensure a smooth transition of wealth to the rightful beneficiaries.",
-        whoNeeds: [
-            "Legal heirs of specific deceased shareholders.",
-            "Joint holders wishing to remove a deceased holder's name.",
-            "Claimants with or without a registered nominee.",
-            "Families struggling with complex succession laws."
-        ],
-        benefits: [
-            "Legal clarity on ownership.",
-            "Prevention of future disputes among heirs.",
-            "Ability to dematerialise and monetize inherited assets.",
-            "Compliance with SEBI's simplified transmission norms."
-        ],
-        documents: [
-            "Death Certificate (Original or Notarized)",
-            "PAN and Aadhar of Claimant",
-            "Client Master List (CML)",
-            "Probate / Succession Certificate / Letter of Administration (if value > limit)",
-            "No Objection Certificate (NOC) from other heirs"
-        ],
-        process: [
-            "Documentation Audit: We determine if you need a range of legal documents based on asset value.",
-            "Application Filing: Preparing transmission request forms for the RTA.",
-            "Legal Compliance: Assisting in obtaining Legal Heir Certificates or Succession Certificates if needed.",
-            "Follow-up: Coordinating with the company/RTA for approval.",
-            "Transfer: Shares are transmitted to the claimant's Demat account."
-        ],
-        faq: [
-            { question: "Is a Succession Certificate mandatory?", answer: "It depends on the value of shares and whether a nominee was registered. We advise based on specific cases." },
-            { question: "How long does transmission take?", answer: "Simple cases take 3-4 weeks; complex legal cases may take longer." }
-        ]
-    },
-    {
-        id: "duplicate",
-        slug: "duplicate-share-certificate",
-        icon: FileText,
-        title: "Duplicate Share Certificate",
-        shortDescription: "Reissuance of lost, misplaced, or destroyed physical share certificates.",
-        heroImage: "/images/duplicate-share-certificate.jpg",
-        overview: "Lost your original share certificates? Don't panic. Obtaining a duplicate share certificate is a statutory right of every shareholder. The process has been significantly simplified under SEBI's latest circulars. Folio First Consulting guides you through the entire procedure to restore your proof of ownership swiftly and compliantly.",
-        whoNeeds: [
-            "Shareholders who have misplaced original certificates.",
-            "Individuals whose certificates were destroyed in floods, fire, or transit.",
-            "Investors holding torn or mutilated certificates.",
-            "Heirs who cannot find the deceased's original papers."
-        ],
-        benefits: [
-            "Restoration of asset value.",
-            "Prerequisite for dematerialisation.",
-            "Regularization of records with the company.",
-            "Peace of mind regarding ownership proof."
-        ],
-        documents: [
-            "Affidavit and Indemnity Bond",
-            "KYC Documents of the holder (PAN & Aadhaar)",
-            "Signature verification from Bank",
-            "Self-attested copy of share certificate (if partial records exist)"
-        ],
-        process: [
-            "Company Intimation: Informing the RTA/Company about the loss immediately to stop any transfer.",
-            "Documentation: Drafting affidavits and indemnity bonds as required by the company.",
-            "Application Submission: Filing the duplicate certificate request form with the RTA.",
-            "Verification: The RTA verifies the holder's identity and shareholding records.",
-            "Issuance: The company issues a 'Letter of Confirmation' for direct demat credit."
-        ],
-        faq: [
-            { question: "Can I get physical certificates again?", answer: "As per SEBI's new circular, companies now issue a 'Letter of Confirmation' to credit shares directly to Demat, not physical certificates." },
-            { question: "Is an FIR or newspaper publication required?", answer: "No. Under SEBI's simplified process, FIR filing and newspaper publication are no longer mandatory for most lost/misplaced certificate cases. An affidavit and indemnity bond are sufficient." }
-        ]
-    },
-    {
-        id: "kyc",
-        slug: "kyc-update",
-        icon: ShieldCheck,
-        title: "KYC & Details Update",
-        shortDescription: "Update your signature, address, and bank details to prevent freezing of folios.",
-        heroImage: "/images/kyc-detail-update.jpg",
-        overview: "SEBI has made it mandatory to update PAN, KYC, and Nomination details for all physical shareholders. Failure to do so leads to freezing of folios, preventing you from receiving dividends or lodging grievances. We ensure your records are up-to-date and compliant with the latest regulatory norms.",
-        whoNeeds: [
-            "Shareholders with outdated address or bank records.",
-            "Individuals with signature mismatches.",
-            "Investors whose folios have been frozen (KYC non-compliant).",
-            "Anyone needing to add or change a nominee."
-        ],
-        benefits: [
-            "Unfreezing of blocked folios.",
-            "Receipt of pending dividends directly to bank.",
-            "Smooth processing of future requests.",
-            "Compliance with SEBI regulations."
-        ],
-        documents: [
-            "ISR-1 (Request for registering PAN/KYC)",
-            "ISR-2 (Signature Verification)",
-            "SH-13 (Nomination Form)",
-            "Self-attested PAN and Aadhar",
-            "Original Cancelled Cheque"
-        ],
-        process: [
-            "Record Analysis: checking the current status of your folio.",
-            "Form Filling: Accurate filling of ISR-1, ISR-2, and SH-13 forms.",
-            "Banker Attestation: Getting signature verification if signature has changed.",
-            "Submission: Sending documents to the RTA.",
-            "Confirmation: Ensuring the RTA updates the records in their system."
-        ],
-        faq: [
-            { question: "What is a frozen folio?", answer: "A folio where the RTA stops processing requests due to missing KYC documents." },
-            { question: "How do I change my address?", answer: "By submitting Form ISR-1 along with self-attested address proof." }
-        ]
-    },
     {
         id: "compliance-support",
         slug: "compliance-and-business-support",
@@ -417,39 +133,40 @@ export const services = [
     {
         id: "audit-assurance",
         slug: "audit-and-assurance",
-        icon: BarChart,
+        icon: ShieldCheck,
         title: "Audit & Assurance",
-        shortDescription: "Statutory audit, tax audit, internal audit, and financial review services to build trust and ensure integrity.",
+        shortDescription: "Comprehensive statutory audit, internal audit, and assurance services ensuring transparency and regulatory compliance.",
         heroImage: "/images/audit-assurance.jpg",
-        overview: "Audit & Assurance services provide credibility to your financial statements, offering stakeholders and investors confidence in your business operations. Our professional team conducts statutory audits under the Companies Act, tax audits under the Income Tax Act, internal audits to assess and mitigate operational risks, and specialized reviews tailored to your business needs.",
+        overview: "Audit and Assurance services provide independent verification of financial statements, internal controls, and compliance frameworks. Our team of qualified Chartered Accountants delivers statutory audits, internal audits, tax audits, and special purpose audits, ensuring accuracy, transparency, and adherence to applicable accounting standards and regulatory requirements.",
         whoNeeds: [
-            "Companies requiring mandatory Statutory Audits under the Companies Act.",
-            "Businesses requiring internal control reviews and risk assessment.",
-            "Organizations requiring special audits or stock audits for bank facilities.",
-            "Non-profit entities and trusts requiring statutory review."
+            "Companies requiring statutory audits under the Companies Act.",
+            "Businesses needing internal audit and risk assessment.",
+            "Entities subject to tax audits under Section 44AB of the Income Tax Act.",
+            "Organizations seeking assurance for investors, lenders, or regulatory bodies."
         ],
         benefits: [
-            "Assurance of financial accuracy and compliance with accounting standards.",
-            "Identification of operational inefficiencies and internal control gaps.",
-            "Enhanced credibility with lenders, investors, and regulators.",
-            "Mitigation of fraud and financial irregularities."
+            "Enhanced credibility and stakeholder confidence in financial statements.",
+            "Early detection of fraud, errors, and internal control weaknesses.",
+            "Compliance with statutory and regulatory audit requirements.",
+            "Improved operational efficiency through audit recommendations."
         ],
         documents: [
-            "Trial Balance & Ledgers",
-            "Bank Reconciliation Statements",
-            "Fixed Asset Register",
-            "Purchase & Sales Invoices with supporting documents",
-            "Previous Audit Reports & Statutory Registers"
+            "Financial Statements (Balance Sheet, Profit & Loss, Cash Flow)",
+            "Trial Balance and General Ledger",
+            "Bank Statements and Reconciliations",
+            "Invoices and Supporting Vouchers",
+            "Board Resolutions and Minutes of Meetings",
+            "Previous Audit Reports and Management Letters"
         ],
         process: [
-            { title: "Planning & Risk Assessment", description: "Understanding business operations and identifying key audit risk areas.", duration: "3-5 Days" },
-            { title: "Fieldwork & Testing", description: "Verifying transactions, ledger balances, and physical verification of assets.", duration: "5-10 Days" },
-            { title: "Discussion & Review", description: "Discussing findings and management letter points with the management.", duration: "2-3 Days" },
-            { title: "Reporting & Sign-off", description: "Issuing the Audit Report and signing financial statements.", duration: "2-4 Days" }
+            { title: "Planning & Risk Assessment", description: "Understanding business operations, identifying risk areas, and planning audit procedures.", duration: "3-5 Days" },
+            { title: "Fieldwork & Testing", description: "Performing substantive tests, vouching, verification, and internal control testing.", duration: "10-15 Days" },
+            { title: "Review & Analysis", description: "Reviewing findings, evaluating compliance, and assessing financial statement accuracy.", duration: "3-5 Days" },
+            { title: "Report Issuance", description: "Issuing the audit report with observations, recommendations, and opinion.", duration: "2-3 Days" }
         ],
         faq: [
-            { question: "What is a Statutory Audit?", answer: "It is an audit mandated by law (the Companies Act) to check if a company's financial records present a true and fair view of its financial position." },
-            { question: "What is an Internal Audit?", answer: "An internal audit evaluates a company's internal controls, corporate governance, and accounting processes to improve efficiency." }
+            { question: "What is a statutory audit?", answer: "A statutory audit is a legally mandated review of a company's financial statements to ensure they present a true and fair view of the company's financial position." },
+            { question: "Is an internal audit mandatory?", answer: "Internal audit is mandatory for certain classes of companies under the Companies Act, 2013, including listed companies and specified public/private companies meeting certain thresholds." }
         ]
     },
     {
@@ -567,6 +284,88 @@ export const services = [
         ]
     },
     {
+        id: "dematerialisation",
+        slug: "dematerialisation-of-shares",
+        icon: BarChart,
+        title: "Share Dematerialisation Process",
+        shortDescription: "We convert your physical shares to Demat with a 99% success rate. Fast, secure, and fully compliant with SEBI & NSDL/CDSL regulations.",
+        heroImage: "/images/Dematerialisation.jpg",
+        overview: "Dematerialisation of shares is the process of converting physical share certificates into electronic form, facilitating seamless share trading and transfer. In India, this is managed through depositories like NSDL and CDSL. Holding physical shares poses risks of loss, theft, and fraud. Dematerialisation eliminates these risks, ensuring ease of buying and selling while boosting market efficiency. At Folio First Consulting, we assist you in converting your physical shares to Demat form seamlessly, ensuring compliance and speed.",
+        challenges: [
+            { title: "Lack of Awareness", description: "Many investors are unaware of the process and benefits, leading to confusion and delays." },
+            { title: "Documentation Errors", description: "Incomplete details or mismatched signatures on the DRF often cause rejections." },
+            { title: "Technical Glitches", description: "System failures or connectivity issues with DPs can disrupt the conversion process." },
+            { title: "Regulatory Compliance", description: "Complex guidelines from SEBI and MCA require strict adherence to avoid application rejection." },
+            { title: "Delays in Processing", description: "High volume of requests and ineffective handling can prolong the conversion time." }
+        ],
+        whoNeeds: [
+            "Individual Investors (Residents & NRIs)",
+            "Companies holding physical shares",
+            "HUFs & Trusts",
+            "Banks & Financial Institutions",
+            "Foreign Portfolio Investors (FPIs)"
+        ],
+        prerequisites: [
+            { title: "Active Demat Account", description: "You must have a registered Demat account with a Depository Participant (DP)." },
+            { title: "DRF Submission", description: "Submission of a filled Dematerialisation Request Form (DRF) is mandatory." },
+            { title: "Original Certificates", description: "Physical share certificates must be surrendered for conversion." },
+            { title: "Signature Verification", description: "Signatures on certificates must match company records." }
+        ],
+        benefits: [
+            "Easy and Convenient: Access holdings anywhere, anytime.",
+            "Secure and Risk-Free: Eliminates loss, theft, or damage risks.",
+            "Effortless Fund Transfers: Quick electronic transfers via linked bank accounts.",
+            "Paperless and Eco-Friendly: Reduces administrative burden and paper usage.",
+            "Loan Against Securities: Use Demat holdings as collateral for loans.",
+            "Quick Corporate Benefits: Automatic credit of dividends and bonus shares.",
+            "Easy Portfolio Monitoring: Track performance and holdings in real-time.",
+            "Versatile Investment Options: Hold equities, mutual funds, and bonds in one place."
+        ],
+        documents: [
+            "Dematerialisation Request Form (DRF)",
+            "Original Physical Share Certificates",
+            "Self-attested PAN Card",
+            "Aadhar Card or Address Proof",
+            "Client Master List (CML)",
+            "Two Passport-sized Photographs",
+            "Registered Nominee Details",
+            "Death Certificate & Succession Certificate (For Inherited Shares)"
+        ],
+        process: [
+            { title: "Selection of DP", description: "Choosing a Depository Participant (DP) to open your Demat account.", duration: "1-2 Days" },
+            { title: "Filling Demat Account Form", description: "Submitting the application form with required KYC documents.", duration: "1-2 Days" },
+            { title: "Document Verification", description: "Validating address, identity proof, and bank details.", duration: "3-5 Days" },
+            { title: "Processing Request", description: "Verification of physical certificates and DRF by the RTA.", duration: "5-7 Days" },
+            { title: "Completion & Credit", description: "Shares are converted to electronic form and credited to your account.", duration: "7-10 Days" }
+        ],
+        guidelines: [
+            "Mandatory for Private Companies (except Small Companies).",
+            "Required for any share transfers or capital structure alterations.",
+            "Companies must obtain an ISIN for electronic transactions.",
+            "NSDL and CDSL handle the process as SEBI-registered depositories."
+        ],
+        penalties: [
+            "Monetary Penalty on Company: Up to ₹2,00,000.",
+            "Penalty on Officers: Up to ₹50,000.",
+            "Loss of Shareholder Rights (Dividend & Voting).",
+            "Restriction on Share Issuance and Transfer."
+        ],
+        whyChooseUs: [
+            "10+ Years of Industry Experience",
+            "Helped Over 5000+ Investors",
+            "99% Accuracy Rate with Minimal Errors",
+            "30% Quicker Turnaround Time",
+            "End-to-End SEBI Compliant Process",
+            "Transparent & Zero Hidden Charges"
+        ],
+        faq: [
+            { question: "What is dematerialisation of shares?", answer: "It is the process of converting physical share certificates into electronic form to facilitate seamless trading and security." },
+            { question: "Is dematerialisation mandatory?", answer: "Yes, for transferring shares and for most private companies, dematerialisation is now mandatory under MCA and SEBI rules." },
+            { question: "What is a DRF?", answer: "Dematerialisation Request Form (DRF) is the document submitted to your DP to initiate the conversion of physical shares." },
+            { question: "How long does the process take?", answer: "Typically 15-30 days, but with our assistance, we aim to expedite verification and processing." }
+        ]
+    },
+    {
         id: "corporate-laws",
         slug: "corporate-and-allied-laws",
         icon: Scale,
@@ -602,6 +401,45 @@ export const services = [
         faq: [
             { question: "What is FEMA?", answer: "The Foreign Exchange Management Act (FEMA) regulates all inbound and outbound foreign exchange transactions, including foreign investments and NRI remittances." },
             { question: "Why is a Shareholders' Agreement (SHA) crucial?", answer: "An SHA defines the rights, duties, and privileges of shareholders, providing clear dispute resolution and exit mechanisms to protect business partners." }
+        ]
+    },
+    {
+        id: "kyc",
+        slug: "kyc-update",
+        icon: ShieldCheck,
+        title: "KYC & Details Update",
+        shortDescription: "Update your signature, address, and bank details to prevent freezing of folios.",
+        heroImage: "/images/kyc-detail-update.jpg",
+        overview: "SEBI has made it mandatory to update PAN, KYC, and Nomination details for all physical shareholders. Failure to do so leads to freezing of folios, preventing you from receiving dividends or lodging grievances. We ensure your records are up-to-date and compliant with the latest regulatory norms.",
+        whoNeeds: [
+            "Shareholders with outdated address or bank records.",
+            "Individuals with signature mismatches.",
+            "Investors whose folios have been frozen (KYC non-compliant).",
+            "Anyone needing to add or change a nominee."
+        ],
+        benefits: [
+            "Unfreezing of blocked folios.",
+            "Receipt of pending dividends directly to bank.",
+            "Smooth processing of future requests.",
+            "Compliance with SEBI regulations."
+        ],
+        documents: [
+            "ISR-1 (Request for registering PAN/KYC)",
+            "ISR-2 (Signature Verification)",
+            "SH-13 (Nomination Form)",
+            "Self-attested PAN and Aadhar",
+            "Original Cancelled Cheque"
+        ],
+        process: [
+            "Record Analysis: checking the current status of your folio.",
+            "Form Filling: Accurate filling of ISR-1, ISR-2, and SH-13 forms.",
+            "Banker Attestation: Getting signature verification if signature has changed.",
+            "Submission: Sending documents to the RTA.",
+            "Confirmation: Ensuring the RTA updates the records in their system."
+        ],
+        faq: [
+            { question: "What is a frozen folio?", answer: "A folio where the RTA stops processing requests due to missing KYC documents." },
+            { question: "How do I change my address?", answer: "By submitting Form ISR-1 along with self-attested address proof." }
         ]
     }
 ];
@@ -1049,6 +887,81 @@ export const articles = [
                 </p>
                 <p>
                     For investors holding unresolved physical shares from the pre-2019 era, these windows offer a rare and possibly final opportunity to convert dormant paper certificates into active electronic assets. Timely action, complete documentation, and procedural compliance are now essential. In today&apos;s securities market, dematerialisation is not merely a convenience &mdash; it is the gateway to enforceable ownership.
+                </p>
+            </>
+        )
+    },
+    {
+        id: 6,
+        slug: "acknowledgment-of-debt-extending-limitation-ibc",
+        title: "Acknowledgment of Debt for Extending Limitation for IBC Application",
+        date: "July 04, 2026",
+        excerpt: "How written acknowledgments of debt reset the limitation clock under Section 18 of the Limitation Act, extending the window for IBC insolvency applications.",
+        featuredImage: "/images/acknowledgment-debt-ibc.jpg",
+        content: (
+            <>
+                <p>
+                    In the Indian corporate landscape, timing is everything when a company defaults on its obligations. Under the Insolvency and Bankruptcy Code (IBC), a creditor must initiate insolvency proceedings within a strict three-year window from the date of default, as prescribed under Article 137 of the Limitation Act, 1963. However, real-world commerce is rarely that rigid; financial distress usually triggers extended negotiations, restructuring proposals, and deferred payment promises.
+                </p>
+                <p>
+                    This introduces a critical intersection between insolvency law and Section 18 of the Limitation Act, which dictates that if a debtor acknowledges a subsisting liability in a signed, written statement before the expiration of the prescribed period, the limitation clock completely resets, granting a fresh three-year window from the date of such acknowledgment. For a corporate entity, this must be a conscious, intentional admission executed by an authorized representative, such as a director or signatory.
+                </p>
+                <p>
+                    For years, defaulting debtors attempted to bypass this rule by arguing that the IBC was a self-contained code and that the limitation timer ran inexorably from the date of Non-Performing Asset (NPA) classification. The Supreme Court of India decisively dismantled this defense, establishing that a company&apos;s commercial admissions cannot be ignored simply because a dispute enters the realm of insolvency.
+                </p>
+
+                <h2>1. One-Time Settlement (OTS) Proposals Reset the Clock</h2>
+                <p>
+                    <em>Dena Bank (now Bank of Baroda) v. C. Sivakumar Reddy (2021) 10 SCC 330; Vidyasagar Prasad v. UCO Bank, 2024 AIR Supreme Court 5464.</em>
+                </p>
+                <p>
+                    In the above mentioned cases, it was discussed that signing and submitting an OTS proposal acts as a written acknowledgement of liability. This resets the limitation clock, granting a fresh 3-year period from the date the proposal was signed. This principle is heavily utilized in insolvency and recovery proceedings (such as under the IBC or DRT) to prevent debtors from escaping liability by citing the initial NPA (Non-Performing Asset) date.
+                </p>
+
+                <h2>2. Restructuring Agreements and Continuous Commercial Conduct</h2>
+                <p>
+                    In <em>B. Prashanth Hegde v. State Bank of India, 2026(2) Apex Court Judgements (SC) 609</em>, the Hon&apos;ble Supreme Court held that where corporate debtor acknowledged debts in balance sheets and entered into restructuring agreements, such acknowledgement extended limitation period under Section 18 of Limitation Act. Application filed within extended limitation period is not barred.
+                </p>
+
+                <h2>3. Entries in Balance Sheets are Valid Acknowledgments</h2>
+                <p>
+                    In <em>Asset Reconstruction Company (India) Limited vs. Bishal Jaiswal, 2021(6) SCC 366</em>, the Hon&apos;ble Court held that entries made in company&apos;s balance sheets amounts to acknowledgment of debt for the purpose of extending limitation under Section 18 of the 1963 Act.
+                </p>
+                <p>
+                    This judgment was widely followed by the Hon&apos;ble NCLAT and Hon&apos;ble NCLTs across India.
+                </p>
+                <p>
+                    Recently, in the case of <em>Vidyasagar Prasad v. UCO Bank, 2024 AIR Supreme Court 5464</em>, the Hon&apos;ble Court observed that entries in the balance sheets amount to clear acknowledgment of debt, even if said entry fails to mention the name of financial creditor.
+                </p>
+
+                <h2>4. Admission of Claims by an IRP/RP is NOT an Acknowledgment</h2>
+                <p>
+                    In <em>Shankar Khandelwal v. Omkara Asset Reconstruction Pvt. Ltd., 2026 AIR Supreme Court 2132</em>, the Hon&apos;ble Supreme Court held that scope and ambit of Section 18 of the 1963 Act are well-settled. For a writing to constitute a valid acknowledgment, it must be made by the party against whom the right is claimed, or by a person duly authorized on its behalf; it must be made before the expiration of the prescribed period of limitation; and, most importantly, it must evince a conscious and unequivocal intention to admit a subsisting jural relationship and an existing liability.
+                </p>
+                <p>
+                    A mere reference to a past transaction or a bald recital of a debt, without an intention to admit liability, would not suffice. The provisions of the Code and the Regulations were considered by this Court and it has been held that Resolution Professional (RP) has no adjudicatory powers and his role involves collation of claims. RP performs its administrative duties under Section 18 of the Code.
+                </p>
+                <p>
+                    The admission of a claim by RP is merely an administrative/clerical task performed as part of its statutory duties under Section 18 of the Code and, therefore, admission of claim by RP only means induction/entry of a claim. An admission of a claim by RP is akin to mere recital/reference of debt, which does not amount to an acknowledgment under Section 18 of the 1963 Act.
+                </p>
+
+                <h2>5. Liability of Principal Debtor and Corporate Guarantor</h2>
+                <p>
+                    In the case of <em>ICICI Bank Limited v. ERA Infrastructure (India) Limited, 2026 AIR Supreme Court 1371</em>, the Hon&apos;ble Supreme Court held that Section 60(2) of IBC allows adjudicating authority to entertain insolvency applications against principal debtor and guarantor simultaneously. Liability of guarantor under Section 128 of the Indian Contract Act is co-extensive with principal debtor. Further, no statutory provision mandates election of claims under IBC, hence restricting creditor&apos;s claim would be unwarranted.
+                </p>
+                <p>
+                    In another important ruling of <em>Bank of India vs. Bimalkumar Manubhai Savalia</em>, decided on 14.03.2023, the Hon&apos;ble Supreme Court held that an acknowledgement of debt under Section 18 of the Limitation Act, 1963 is sufficient to extend the limitation period even if it is not accompanied by a promise to pay. Communication indicating jural relationship between creditor and debtor is adequate to constitute acknowledgement of debt.
+                </p>
+
+                <h2>Conclusion</h2>
+                <p>
+                    The concept of &quot;acknowledgment&quot; hinges on a conscious, intentional admission of a subsisting jural relationship. The Supreme Court has progressively broadened this scope to include active commercial conduct, such as signing One-Time Settlement (OTS) proposals, entering restructuring agreements, and making clear entries in corporate balance sheets (even without explicitly naming the creditor). Crucially, these acknowledgments extend the limitation period even without an explicit promise to pay.
+                </p>
+                <p>
+                    However, the judiciary draws a sharp line regarding administrative processes. The admission of a claim by a Resolution Professional (RP) is merely a clerical task and does not qualify as a valid acknowledgment of debt, as it lacks the debtor&apos;s intentional admission of liability.
+                </p>
+                <p>
+                    Ultimately, the jurisprudence outlined above prevents the law from being overly rigid, ensuring that genuine commercial acknowledgments protect a creditor&apos;s right to initiate insolvency while safeguarding the process from administrative exploitation. Rather, it ensures that the IBC remains an effective tool for genuine asset resolution rather than a loophole for deliberate defaulters to escape their debts.
                 </p>
             </>
         )

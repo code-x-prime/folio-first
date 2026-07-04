@@ -83,7 +83,7 @@ export default function Home() {
               </h1>
 
               <p className="text-base md:text-lg lg:text-xl text-gray-600 mb-8 leading-relaxed max-w-lg mx-auto lg:mx-0">
-                Navigate the bureaucratic maze of IEPF claims and share transmission with India&apos;s most trusted experts. Effortless, secure, and fully guided.
+                Navigate the bureaucratic maze of IEPF claims, share transmission, and corporate compliance with a dedicated team of CAs and lawyers. India&apos;s most trusted experts—effortless, secure, and fully guided.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
@@ -237,7 +237,7 @@ export default function Home() {
               </blockquote>
 
               <p className="text-lg text-gray-600 mb-12 leading-relaxed">
-                Folio First Consulting is a specialized advisory firm. We focus entirely on retrieving seemingly lost investments, dealing with physical shares, and managing IEPF claims. We bring clarity and results to a process that is famously opaque.
+                Folio First Consulting is a specialized advisory firm backed by a dedicated team of CAs and lawyers. We focus entirely on retrieving seemingly lost investments, dealing with physical shares, managing IEPF claims, and offering corporate compliance and advisory. We bring clarity and results to a process that is famously opaque.
               </p>
 
               <div className="grid grid-cols-2 gap-8 border-t border-[#d5ad5c]/20 pt-10">

@@ -32,8 +32,8 @@ export default function Header() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Use only first 5 services for mega menu as requested
-  const megaMenuServices = services.slice(0, 5);
+  // Show all services in mega menu
+  const megaMenuServices = services;
 
   // Close mobile menu when route changes
   useEffect(() => {
@@ -160,7 +160,8 @@ export default function Header() {
                             {/* Glass overlay subtle glow */}
                             <div className="absolute top-0 right-0 w-64 h-64 bg-yellow-400/5 rounded-full blur-3xl -z-10 translate-x-1/2 -translate-y-1/2"></div>
                             
-                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-4 relative z-10">
+                            <div className="max-h-[70vh] overflow-y-auto pr-1">
+                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-2 relative z-10">
                               {megaMenuServices.map((service, idx) => (
                                 <Link 
                                   key={service.slug} 
@@ -198,6 +199,7 @@ export default function Header() {
                                   <ArrowRight className="h-4 w-4 text-primary" strokeWidth={2} />
                                 </div>
                               </Link>
+                            </div>
                             </div>
                           </div>
                         </motion.div>

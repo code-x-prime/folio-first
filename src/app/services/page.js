@@ -49,7 +49,7 @@ export default function ServicesPage() {
                         </h1>
 
                         <p className="text-base md:text-xl lg:text-2xl text-gray-400 max-w-2xl mx-auto leading-relaxed font-light px-2">
-                            Elite advisory for share recovery, transmission, and dematerialisation. We navigate the complexities so you can secure your legacy.
+                            Comprehensive advisory by a dedicated team of CAs and lawyers — from share recovery and IEPF claims to taxation, audit, NRI services, and corporate law.
                         </p>
                     </div>
                 </div>

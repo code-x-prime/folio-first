@@ -64,7 +64,7 @@ export default function Footer() {
         </motion.div>
 
         {/* MAIN FOOTER GRID */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-6 mb-16">
 
           {/* Column 1: Brand */}
           <motion.div
@@ -72,7 +72,7 @@ export default function Footer() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1, duration: 0.5 }}
-            className="space-y-6"
+            className="space-y-6 lg:col-span-1"
           >
             <div className="relative w-48 h-16 ">
               <Image
@@ -83,10 +83,10 @@ export default function Footer() {
               />
             </div>
             <p className="leading-relaxed text-gray-400 text-[15px] pr-4">
-              India&apos;s premier advisory firm dedicated to resolving complex share-related issues. We specialize in IEPF recovery, share transmission, and dematerialisation services across India.
+              India&apos;s premier advisory firm dedicated to resolving complex share-related issues, taxation, audit, and corporate law matters across India.
             </p>
 
-            {/* Social Links - Facebook, Twitter/X, LinkedIn, Instagram */}
+            {/* Social Links */}
             <div className="flex items-center gap-3 pt-2">
               {[
                 { name: 'Facebook', Icon: FaFacebookF, href: siteConfig.socials?.facebook || '#' },
@@ -114,13 +114,13 @@ export default function Footer() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2, duration: 0.5 }}
-            className="lg:pl-8"
+            className="lg:pl-4"
           >
             <h4 className="text-white text-lg font-bold mb-6 flex items-center gap-2">
               <span className="w-8 h-[2px] bg-yellow-500 rounded-full"></span>
               Quick Links
             </h4>
-            <ul className="space-y-4">
+            <ul className="space-y-3">
               {quickLinks.map((link) => (
                 <li key={link.name}>
                   <Link
@@ -135,7 +135,7 @@ export default function Footer() {
             </ul>
           </motion.div>
 
-          {/* Column 3: Services */}
+          {/* Column 3: Services Part 1 */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -146,22 +146,48 @@ export default function Footer() {
               <span className="w-8 h-[2px] bg-yellow-500 rounded-full"></span>
               Our Services
             </h4>
-            <ul className="space-y-4">
-              {services.slice(0, 5).map((service) => (
+            <ul className="space-y-3">
+              {services.slice(0, 7).map((service) => (
                 <li key={service.slug}>
                   <Link
                     href={`/services/${service.slug}`}
                     className="group flex items-center text-gray-400 hover:text-yellow-400 transition-colors duration-300"
                   >
-                    <ChevronRight className="h-4 w-4 mr-2 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all text-yellow-500" />
-                    <span className="group-hover:translate-x-1 transition-transform line-clamp-1">{service.title}</span>
+                    <ChevronRight className="h-4 w-4 mr-2 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all text-yellow-500 shrink-0" />
+                    <span className="group-hover:translate-x-1 transition-transform text-[14px] leading-snug">{service.title}</span>
                   </Link>
                 </li>
               ))}
             </ul>
           </motion.div>
 
-          {/* Column 4: Contact Info */}
+          {/* Column 4: Services Part 2 */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.35, duration: 0.5 }}
+          >
+            <h4 className="text-white text-lg font-bold mb-6 flex items-center gap-2 invisible">
+              <span className="w-8 h-[2px] bg-yellow-500 rounded-full"></span>
+              &nbsp;
+            </h4>
+            <ul className="space-y-3">
+              {services.slice(7).map((service) => (
+                <li key={service.slug}>
+                  <Link
+                    href={`/services/${service.slug}`}
+                    className="group flex items-center text-gray-400 hover:text-yellow-400 transition-colors duration-300"
+                  >
+                    <ChevronRight className="h-4 w-4 mr-2 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all text-yellow-500 shrink-0" />
+                    <span className="group-hover:translate-x-1 transition-transform text-[14px] leading-snug">{service.title}</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </motion.div>
+
+          {/* Column 5: Contact Info */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}

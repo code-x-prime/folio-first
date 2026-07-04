@@ -114,7 +114,7 @@ export default function About() {
                                     We understand that dealing with dormant share certificates, bureaucratic RTAs, and complex regulatory bodies like the IEPF can be overwhelming for individuals and families.
                                 </p>
                                 <p>
-                                    With over a decade of deep regulatory experience in the financial consultancy sector, our elite team of experts has successfully recovered crores of rupees for families across India. We believe that what is rightfully yours should be in your hands—and we leave no stone unturned to make that happen legally and swiftly.
+                                    With over a decade of deep regulatory experience in the financial consultancy sector, our dedicated team of CAs and lawyers has successfully recovered crores of rupees for families across India and assisted corporations in navigating audits, taxation, and legal proceedings. We believe that what is rightfully yours should be in your hands—and we leave no stone unturned to make that happen legally and swiftly.
                                 </p>
                             </div>
 

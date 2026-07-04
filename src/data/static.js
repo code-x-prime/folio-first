@@ -1,4 +1,4 @@
-import { FileText, BarChart, ShieldCheck, RefreshCw, UserCheck, Share2, UserSearch } from "lucide-react";
+import { FileText, BarChart, ShieldCheck, RefreshCw, UserCheck, Share2, UserSearch, Scale, Globe, Briefcase, TrendingUp } from "lucide-react";
 
 export const siteConfig = {
     name: "Folio First Consulting",
@@ -20,7 +20,7 @@ export const services = [
         id: "dematerialisation",
         slug: "dematerialisation-of-shares",
         icon: BarChart,
-        title: "Dematerialisation of Shares",
+        title: "Share Dematerialisation Process",
         shortDescription: "We convert your physical shares to Demat with a 99% success rate. Fast, secure, and fully compliant with SEBI & NSDL/CDSL regulations.",
         heroImage: "/images/Dematerialisation.jpg",
         overview: "Dematerialisation of shares is the process of converting physical share certificates into electronic form, facilitating seamless share trading and transfer. In India, this is managed through depositories like NSDL and CDSL. Holding physical shares poses risks of loss, theft, and fraud. Dematerialisation eliminates these risks, ensuring ease of buying and selling while boosting market efficiency. At Folio First Consulting, we assist you in converting your physical shares to Demat form seamlessly, ensuring compliance and speed.",
@@ -298,6 +298,310 @@ export const services = [
         faq: [
             { question: "What is a frozen folio?", answer: "A folio where the RTA stops processing requests due to missing KYC documents." },
             { question: "How do I change my address?", answer: "By submitting Form ISR-1 along with self-attested address proof." }
+        ]
+    },
+    {
+        id: "compliance-support",
+        slug: "compliance-and-business-support",
+        icon: ShieldCheck,
+        title: "Compliance and Business Support",
+        shortDescription: "Comprehensive regulatory compliance, corporate governance, and business setup/support services.",
+        heroImage: "/images/compliance-support.jpg",
+        overview: "Compliance and Business Support ensures that your business operates seamlessly within the legal frameworks established by the Ministry of Corporate Affairs (MCA), SEBI, RBI, and other regulatory bodies in India. From business incorporation, licensing, and secretarial compliance to annual filings and corporate governance, we provide end-to-end support to let you focus on growth while we handle the regulatory burdens.",
+        whoNeeds: [
+            "Startups and new business ventures looking to incorporate.",
+            "Established private and public companies requiring secretarial audits.",
+            "Foreign companies planning to establish a branch or subsidiary in India.",
+            "Businesses seeking regulatory registrations and licensing support."
+        ],
+        benefits: [
+            "Avoid heavy legal penalties and operational shutdowns.",
+            "Maintain pristine corporate governance and creditworthiness.",
+            "Streamline board meetings and shareholder relations.",
+            "Saves administrative costs and overheads."
+        ],
+        documents: [
+            "Certificate of Incorporation",
+            "Memorandum of Association (MoA) & Articles of Association (AoA)",
+            "Director Identification Numbers (DIN) & DSC of Directors",
+            "PAN and Aadhaar of Directors",
+            "Board Resolutions & Minutes of Meetings"
+        ],
+        process: [
+            { title: "Consultation & Scope Assessment", description: "Evaluating your business structure and mapping required compliance.", duration: "1-2 Days" },
+            { title: "Document Collection", description: "Gathering and verifying all legal documents and identification proofs.", duration: "2-3 Days" },
+            { title: "Filing and Registration", description: "Submitting compliance forms or registration applications to regulatory bodies.", duration: "5-10 Days" },
+            { title: "Approval and Handover", description: "Securing approvals, certificates, or compliance reports and handing them over.", duration: "2-4 Days" }
+        ],
+        faq: [
+            { question: "What is secretarial compliance?", answer: "It is the compliance with provisions of the Companies Act and other corporate laws, ensuring proper board meetings, filings, and register maintenance." },
+            { question: "Why is ROC filing mandatory?", answer: "Every registered company must file annual accounts and returns with the Registrar of Companies (ROC) to maintain active status and avoid penalty." }
+        ]
+    },
+    {
+        id: "direct-taxation",
+        slug: "direct-taxation",
+        icon: FileText,
+        title: "Direct Taxation",
+        shortDescription: "Expert corporate and personal tax planning, return filing, and representation before income tax authorities.",
+        heroImage: "/images/direct-taxation.jpg",
+        overview: "Direct Taxation services cover income tax planning, compliance, advisory, and litigation support for corporate entities, firms, and individuals. In an ever-evolving tax landscape, our goal is to minimize tax liabilities while ensuring complete compliance with the Income Tax Act, 1961. We assist with tax audits, transfer pricing, filing returns, and representing clients before the Income Tax Department.",
+        whoNeeds: [
+            "Corporates requiring Statutory Tax Audits and Transfer Pricing audits.",
+            "Individuals with complex income structures or global assets.",
+            "Partnership firms and LLPs seeking tax optimization.",
+            "Taxpayers facing scrutiny assessments or income tax disputes."
+        ],
+        benefits: [
+            "Minimization of tax liabilities through legal tax planning.",
+            "Timely and error-free filing of Income Tax Returns (ITR).",
+            "Professional representation to resolve notices and disputes.",
+            "Seamless compliance with transfer pricing regulations."
+        ],
+        documents: [
+            "PAN and Aadhaar Card",
+            "Financial Statements (Balance Sheet, Profit & Loss)",
+            "Bank Statements & Form 26AS/AIS/TIS",
+            "Investment Proofs & Expense Bills",
+            "Previous Year's Income Tax Returns"
+        ],
+        process: [
+            { title: "Data Gathering & Analysis", description: "Collecting financial statements, transactions, and investment records.", duration: "2-3 Days" },
+            { title: "Tax Computation", description: "Calculating exact taxable income and optimizing deductions under tax laws.", duration: "2-4 Days" },
+            { title: "Review & Filing", description: "Internal audit of returns and submission on the Income Tax portal.", duration: "1-2 Days" },
+            { title: "Assessment Support", description: "Assisting with e-verification and resolving any post-filing queries.", duration: "Ongoing" }
+        ],
+        faq: [
+            { question: "What is a Tax Audit?", answer: "A Tax Audit is a review of a business's accounts under Section 44AB of the Income Tax Act, mandatory if turnover exceeds prescribed limits." },
+            { question: "How can I resolve an income tax notice?", answer: "We analyze the notice, prepare details, draft responses, and submit them online via the e-filing portal on your behalf." }
+        ]
+    },
+    {
+        id: "gst-indirect-tax",
+        slug: "gst-and-indirect-tax",
+        icon: RefreshCw,
+        title: "GST & Indirect Tax",
+        shortDescription: "Seamless GST registration, monthly return filing, input tax credit audits, and representation in tax disputes.",
+        heroImage: "/images/gst-indirect-tax.jpg",
+        overview: "Goods and Services Tax (GST) and other indirect taxes impact almost every transaction in business. We provide end-to-end assistance in GST registration, filing monthly and annual returns, auditing input tax credits (ITC), advising on complex transaction structures, and representation during audits and departmental inquiries.",
+        whoNeeds: [
+            "Manufacturers, traders, and service providers meeting GST thresholds.",
+            "E-commerce operators and exporters.",
+            "Businesses experiencing Input Tax Credit (ITC) blocks or mismatches.",
+            "Firms requiring GST audits or responding to GST notices."
+        ],
+        benefits: [
+            "Ensure full compliance with monthly, quarterly, and annual GST filings.",
+            "Maximize legitimate Input Tax Credit (ITC) recovery.",
+            "Accurate classification of goods/services to prevent future disputes.",
+            "Hassle-free representation before GST departments."
+        ],
+        documents: [
+            "GSTIN Registration Certificate",
+            "Sales and Purchase Registers",
+            "E-Way Bills and Invoices",
+            "Bank Statement of the Entity",
+            "PAN and KYC of Partners/Directors"
+        ],
+        process: [
+            { title: "Reconciliation", description: "Reconciling purchase invoices with GSTR-2B to ensure maximum ITC recovery.", duration: "2-3 Days" },
+            { title: "Drafting & Calculation", description: "Preparing the tax liability calculations and set-off of credit.", duration: "1-2 Days" },
+            { title: "Filing", description: "Submitting monthly GSTR-1, GSTR-3B, or annual returns on the GST portal.", duration: "1-2 Days" },
+            { title: "Advisory & Response", description: "Providing ongoing advice on rate structures and responding to mismatch queries.", duration: "Ongoing" }
+        ],
+        faq: [
+            { question: "What is GSTR-2B?", answer: "GSTR-2B is an auto-drafted Input Tax Credit (ITC) statement generated for every recipient, detailing eligible credits." },
+            { question: "Is GST Audit still mandatory?", answer: "Self-certified reconciliation statements in Form GSTR-9C have replaced the formal CA GST audit, but professional assistance is crucial to avoid reconciliation errors." }
+        ]
+    },
+    {
+        id: "audit-assurance",
+        slug: "audit-and-assurance",
+        icon: BarChart,
+        title: "Audit & Assurance",
+        shortDescription: "Statutory audit, tax audit, internal audit, and financial review services to build trust and ensure integrity.",
+        heroImage: "/images/audit-assurance.jpg",
+        overview: "Audit & Assurance services provide credibility to your financial statements, offering stakeholders and investors confidence in your business operations. Our professional team conducts statutory audits under the Companies Act, tax audits under the Income Tax Act, internal audits to assess and mitigate operational risks, and specialized reviews tailored to your business needs.",
+        whoNeeds: [
+            "Companies requiring mandatory Statutory Audits under the Companies Act.",
+            "Businesses requiring internal control reviews and risk assessment.",
+            "Organizations requiring special audits or stock audits for bank facilities.",
+            "Non-profit entities and trusts requiring statutory review."
+        ],
+        benefits: [
+            "Assurance of financial accuracy and compliance with accounting standards.",
+            "Identification of operational inefficiencies and internal control gaps.",
+            "Enhanced credibility with lenders, investors, and regulators.",
+            "Mitigation of fraud and financial irregularities."
+        ],
+        documents: [
+            "Trial Balance & Ledgers",
+            "Bank Reconciliation Statements",
+            "Fixed Asset Register",
+            "Purchase & Sales Invoices with supporting documents",
+            "Previous Audit Reports & Statutory Registers"
+        ],
+        process: [
+            { title: "Planning & Risk Assessment", description: "Understanding business operations and identifying key audit risk areas.", duration: "3-5 Days" },
+            { title: "Fieldwork & Testing", description: "Verifying transactions, ledger balances, and physical verification of assets.", duration: "5-10 Days" },
+            { title: "Discussion & Review", description: "Discussing findings and management letter points with the management.", duration: "2-3 Days" },
+            { title: "Reporting & Sign-off", description: "Issuing the Audit Report and signing financial statements.", duration: "2-4 Days" }
+        ],
+        faq: [
+            { question: "What is a Statutory Audit?", answer: "It is an audit mandated by law (the Companies Act) to check if a company's financial records present a true and fair view of its financial position." },
+            { question: "What is an Internal Audit?", answer: "An internal audit evaluates a company's internal controls, corporate governance, and accounting processes to improve efficiency." }
+        ]
+    },
+    {
+        id: "risk-transaction-advisory",
+        slug: "risk-advisory-and-transaction-advisory",
+        icon: TrendingUp,
+        title: "Risk Advisory & Transaction Advisory",
+        shortDescription: "Comprehensive risk assessment, due diligence, and transaction advisory for mergers, acquisitions, and business restructuring.",
+        heroImage: "/images/risk-transaction-advisory.jpg",
+        overview: "Risk Advisory and Transaction Advisory services help organizations identify, evaluate, and manage financial, operational, and strategic risks. Additionally, we provide critical support during corporate transactions, including financial and legal due diligence, valuation, deal structuring, and transition support for mergers, acquisitions, and joint ventures.",
+        whoNeeds: [
+            "Businesses planning mergers, acquisitions, or joint ventures.",
+            "Firms seeking independent business valuations.",
+            "Companies looking to establish robust enterprise risk management (ERM) frameworks.",
+            "Investors conducting financial due diligence on target companies."
+        ],
+        benefits: [
+            "Mitigation of financial and legal risks before sealing business deals.",
+            "Accurate business valuation to negotiate favorable terms.",
+            "Improved internal controls and resilience against operational shocks.",
+            "Clear roadmaps for post-merger integration."
+        ],
+        documents: [
+            "Historical Audited Financials",
+            "Business Projections & Model",
+            "Existing Material Contracts & Agreements",
+            "Shareholding Patterns & Capital Structure Details",
+            "Details of Pending Legal Disputes"
+        ],
+        process: [
+            { title: "Initial Assessment", description: "Defining the scope of due diligence, valuation, or risk framework.", duration: "2-4 Days" },
+            { title: "Detailed Analysis", description: "Reviewing operational data, financial books, and compliance records.", duration: "5-12 Days" },
+            { title: "Valuation & Structuring", description: "Applying valuation models and proposing deal structure recommendations.", duration: "3-5 Days" },
+            { title: "Final Report", description: "Delivering a comprehensive advisory report detailing findings and risks.", duration: "2-4 Days" }
+        ],
+        faq: [
+            { question: "What is Financial Due Diligence?", answer: "It is a detailed investigation of a target company's financial records to confirm facts and identify hidden liabilities before a transaction." },
+            { question: "Why is business valuation important?", answer: "Valuation determines the fair market value of a business, providing a solid benchmark for negotiations during M&A or funding rounds." }
+        ]
+    },
+    {
+        id: "drt-nclt-cases",
+        slug: "drt-and-nclt-cases",
+        icon: Scale,
+        title: "DRT & NCLT Cases",
+        shortDescription: "Legal representation and advisory services for cases under DRT, NCLT, and IBC (Insolvency and Bankruptcy Code).",
+        heroImage: "/images/drt-nclt.jpg",
+        overview: "DRT (Debt Recovery Tribunal) and NCLT (National Company Law Tribunal) handle highly complex legal matters relating to debt recovery, insolvency, bankruptcy, and corporate disputes. Our team of experienced legal professionals and advocates represents financial institutions, corporate debtors, creditors, and shareholders, ensuring robust legal representation and resolution under the Insolvency and Bankruptcy Code (IBC) and other corporate laws.",
+        whoNeeds: [
+            "Companies facing insolvency proceedings initiated by operational or financial creditors.",
+            "Creditors looking to recover debts through NCLT under the IBC.",
+            "Corporate entities facing oppression or mismanagement disputes among shareholders.",
+            "Individuals or firms dealing with debt recovery actions under SARFAESI before the DRT."
+        ],
+        benefits: [
+            "Robust legal representation by experienced NCLT/DRT advocates.",
+            "Strategic counsel on restructuring, settlement, and rehabilitation.",
+            "Speedy resolution of corporate disputes and creditor claims.",
+            "Full compliance with the Insolvency and Bankruptcy Code (IBC) guidelines."
+        ],
+        documents: [
+            "Loan Agreements & Security Documents",
+            "Default Notices & Demand Notices (e.g., Section 8 IBC Notice)",
+            "Financial Ledger Statements & Invoices",
+            "Correspondence records regarding outstanding debts",
+            "Petition/Application Forms and supporting affidavits"
+        ],
+        process: [
+            { title: "Case Evaluation", description: "Reviewing default notices, debt status, and identifying the legal path.", duration: "2-3 Days" },
+            { title: "Drafting Petitions", description: "Preparing petitions, applications, and supporting documents for filing.", duration: "4-7 Days" },
+            { title: "Filing & Admission", description: "Lodging the case in DRT or NCLT and representing in admission hearings.", duration: "Varies" },
+            { title: "Hearings & Resolution", description: "Presenting arguments, managing cross-examination, and pursuing final orders.", duration: "Ongoing" }
+        ],
+        faq: [
+            { question: "What is NCLT?", answer: "The National Company Law Tribunal is a quasi-judicial body that adjudicates matters relating to Indian companies, including corporate disputes and insolvency." },
+            { question: "What is the role of DRT?", answer: "The Debt Recovery Tribunal is established to facilitate fast-track recovery of debts due to banks and financial institutions." }
+        ]
+    },
+    {
+        id: "nri-services",
+        slug: "nri-services",
+        icon: Globe,
+        title: "NRI Services",
+        shortDescription: "Specialized financial advisory, tax compliance, capital gains management, and estate planning for Non-Resident Indians.",
+        heroImage: "/images/nri-services.jpg",
+        overview: "NRI Services cater to the unique financial and legal requirements of Non-Resident Indians. We offer expert guidance on taxation of Indian income, claiming TDS refunds, managing capital gains on property sales, setting up and managing NRE/NRO/FCNR accounts, obtaining PAN, compliance with FEMA (Foreign Exchange Management Act), and reclaiming unclaimed investments or inherited properties in India.",
+        whoNeeds: [
+            "Non-Resident Indians with assets, income, or investments in India.",
+            "NRIs selling property in India and seeking lower TDS certificates (Form 13).",
+            "NRIs seeking to reclaim old physical shares, mutual funds, or bank deposits.",
+            "Individuals inheriting Indian properties requiring mutation and legal compliance."
+        ],
+        benefits: [
+            "Seamless tax planning ensuring compliance with both Indian and foreign tax laws.",
+            "Avoidance of double taxation through DTAA (Double Tax Avoidance Agreement) guidance.",
+            "Hassle-free recovery of legacy family investments and dividends.",
+            "Expert legal assistance in property management and mutation in India."
+        ],
+        documents: [
+            "Passport Copy & Visa/OCI Card",
+            "Indian PAN Card & Overseas Address Proof",
+            "NRE/NRO Bank Statements",
+            "Property deeds or investment documents (if reclaiming assets)",
+            "Details of overseas income (for tax planning)"
+        ],
+        process: [
+            { title: "Discovery & Advisory", description: "Understanding NRI status, income sources, and objectives.", duration: "1-2 Days" },
+            { title: "Filing / Application Setup", description: "Preparing Form 13 for lower TDS or draft claims for asset recovery.", duration: "5-10 Days" },
+            { title: "Liaison with Authorities", description: "Interacting with tax departments, RTAs, or banks to push applications.", duration: "15-45 Days" },
+            { title: "Final Credit & Remittance", description: "Ensuring proceeds or assets are credited to NRO/NRE accounts.", duration: "7-15 Days" }
+        ],
+        faq: [
+            { question: "Can an NRI buy or sell property in India?", answer: "Yes, NRIs can buy and sell residential or commercial properties in India, subject to FEMA regulations. The sale proceeds can be repatriated under specified limits." },
+            { question: "How can an NRI reclaim old shares from IEPF?", answer: "The process is similar to resident Indians, requiring e-filing of IEPF-5, verification of Indian KYC, and listing a Demat account, which our team manages end-to-end." }
+        ]
+    },
+    {
+        id: "corporate-laws",
+        slug: "corporate-and-allied-laws",
+        icon: Scale,
+        title: "Corporate and Allied Laws",
+        shortDescription: "Expert legal advisory on the Companies Act, LLP Act, FEMA regulations, and general corporate contract drafting.",
+        heroImage: "/images/corporate-laws.jpg",
+        overview: "Corporate & Allied Laws encompass the legal framework governing corporate entities in India. We offer legal advisory on the Companies Act, LLP Act, FEMA, contract drafting, joint venture agreements, secretarial audits, and compliance management, ensuring your business stays protected and fully compliant.",
+        whoNeeds: [
+            "Firms seeking corporate restructuring, mergers, or buybacks.",
+            "Businesses requiring legal vetting of contracts, vendor agreements, or NDAs.",
+            "Entities dealing with FDI (Foreign Direct Investment) or ECB (External Commercial Borrowings) under FEMA.",
+            "Boards requiring secretarial audits and governance reviews."
+        ],
+        benefits: [
+            "Prevent litigation risks by ensuring legally robust contracts.",
+            "Smooth execution of complex cross-border transactions under FEMA.",
+            "Comprehensive protection of promoter interests through customized Shareholder Agreements (SHA).",
+            "Clean and transparent corporate governance audits."
+        ],
+        documents: [
+            "Corporate MOA and AOA",
+            "Draft contracts or agreements requiring vetting",
+            "Board resolutions regarding planned transactions",
+            "FIPB/RBI communications (for cross-border transactions)",
+            "Details of corporate structure"
+        ],
+        process: [
+            { title: "Draft Vetting & Briefing", description: "Reviewing proposed contract terms or regulatory transaction objectives.", duration: "2-3 Days" },
+            { title: "Legal Framework Mapping", description: "Aligning transactions with the Companies Act, FEMA, and Stamp Act.", duration: "3-5 Days" },
+            { title: "Drafting & Revision", description: "Formulating legally robust drafts and negotiating terms with counter-parties.", duration: "2-4 Days" },
+            { title: "Execution & Filing", description: "Signing agreements and executing required filings with ROC or RBI.", duration: "2-3 Days" }
+        ],
+        faq: [
+            { question: "What is FEMA?", answer: "The Foreign Exchange Management Act (FEMA) regulates all inbound and outbound foreign exchange transactions, including foreign investments and NRI remittances." },
+            { question: "Why is a Shareholders' Agreement (SHA) crucial?", answer: "An SHA defines the rights, duties, and privileges of shareholders, providing clear dispute resolution and exit mechanisms to protect business partners." }
         ]
     }
 ];

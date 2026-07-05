@@ -4,26 +4,26 @@ import Link from 'next/link';
 import { Users, Target, ShieldCheck, Clock, MessageCircle, FileText, TrendingUp } from "lucide-react";
 
 export const metadata = {
-    title: "About Folio First Consulting | IEPF & Share Recovery Experts",
-    description: "Learn about Folio First Consulting — India's trusted experts in IEPF dividend recovery, share transmission, and dematerialisation. Over 10 years of experience and 500+ cases resolved.",
+    title: "About Folio First Consulting | Financial Advisory & Compliance Experts",
+    description: "Learn about Folio First Consulting — India's trusted financial advisory firm offering taxation, compliance, audit, corporate law, and consulting services. Over 10 years of experience.",
     alternates: {
         canonical: `${siteConfig.url || 'https://foliofirstconsulting.com'}/about`,
     },
     openGraph: {
-        title: "About Folio First Consulting | IEPF & Share Recovery Experts",
-        description: "India's trusted experts in IEPF dividend recovery, share transmission, and dematerialisation. 10+ years experience, 500+ cases resolved.",
+        title: "About Folio First Consulting | Financial Advisory Experts",
+        description: "India's trusted financial advisory for taxation, compliance, audit, and corporate law. 10+ years experience.",
         url: `${siteConfig.url || 'https://foliofirstconsulting.com'}/about`,
         siteName: "Folio First Consulting",
     },
     twitter: {
         card: "summary_large_image",
         title: "About Folio First Consulting",
-        description: "India's trusted experts in IEPF dividend recovery, share transmission, and dematerialisation.",
+        description: "India's trusted financial advisory for taxation, compliance, audit, and corporate law.",
     },
     robots: { index: true, follow: true },
 };
 
-const whatsappLink = `https://wa.me/${siteConfig.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent('Hello! I would like a free consultation regarding my share/dividend recovery case. Please assist.')}`;
+const whatsappLink = `https://wa.me/${siteConfig.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent('Hello! I would like a free financial consultation. Please assist.')}`;
 
 export default function AboutPage() {
     return (
@@ -38,16 +38,16 @@ export default function AboutPage() {
                     <div className="max-w-4xl mx-auto">
                         <div className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white/5 border border-white/10 backdrop-blur-md mb-10 mx-auto">
                             <span className="flex h-2 w-2 rounded-full bg-[#d5ad5c] animate-pulse"></span>
-                            <span className="text-sm font-bold text-[#d5ad5c] tracking-widest uppercase">The Premier Advisory</span>
+                            <span className="text-sm font-bold text-[#d5ad5c] tracking-widest uppercase">A Trusted Advisory</span>
                         </div>
 
                         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white leading-[1.1] mb-6 tracking-tight drop-shadow-lg">
-                            Pioneers in <br />
-                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#d5ad5c] via-yellow-400 to-[#d5ad5c] italic pr-2">Wealth Recovery</span>
+                            Comprehensive <br />
+                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#d5ad5c] via-yellow-400 to-[#d5ad5c] italic pr-2">Financial Solutions</span>
                         </h1>
 
                         <p className="text-base md:text-xl lg:text-2xl text-gray-400 max-w-2xl mx-auto leading-relaxed font-light px-2">
-                            Your trusted, secure, and expert partner in navigating the complex landscape of financial recovery and share transmission.
+                            Your trusted partner for taxation, compliance, audit, corporate law, and comprehensive financial advisory.
                         </p>
                     </div>
                 </div>
@@ -79,15 +79,15 @@ export default function AboutPage() {
                         <div className="order-1 lg:order-2">
                             <span className="text-[#d5ad5c] font-black tracking-[0.2em] uppercase text-sm mb-4 block">Our Story</span>
                             <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-[#232323] leading-tight mb-4">
-                                Committed to <br />Unlocking Your Wealth
+                                Committed to <br />Your Financial Success
                             </h2>
                             <p className="text-gray-600 text-lg leading-relaxed mb-8">
-                                Folio First Consulting was founded with a singular mission: to simplify the intricate and often frustrating process of recovering unclaimed financial assets.
+                                Folio First Consulting was founded with a mission to simplify complex financial and regulatory processes for businesses and individuals.
                             </p>
 
                             <div className="space-y-4 text-gray-600 text-lg leading-relaxed mb-8">
-                                <p>We understand that dealing with dormant share certificates, bureaucratic RTAs, and complex regulatory bodies like the IEPF can be overwhelming for individuals and families.</p>
-                                <p>With over a decade of deep regulatory experience in the financial consultancy sector, our elite team of experts has successfully recovered crores of rupees for families across India. We believe that what is rightfully yours should be in your hands—and we leave no stone unturned to make that happen legally and swiftly.</p>
+                                <p>We understand that navigating taxation, compliance, audits, and corporate regulations can be overwhelming for businesses and individuals alike.</p>
+                                <p>With over a decade of deep regulatory experience, our dedicated team of CAs and lawyers has helped thousands of clients across India with taxation, statutory compliance, corporate law matters, and financial advisory. We believe that expert guidance should be accessible—and we work tirelessly to deliver results with integrity and transparency.</p>
                             </div>
 
                             <div className="grid grid-cols-2 gap-6">
@@ -103,8 +103,8 @@ export default function AboutPage() {
                                     <div className="h-14 w-14 rounded-2xl bg-white/10 flex items-center justify-center mb-6 border border-white/5 relative z-10">
                                         <TrendingUp className="h-6 w-6 text-[#d5ad5c]" />
                                     </div>
-                                    <h4 className="font-black text-4xl text-white mb-2 tracking-tight relative z-10">100Cr<span className="text-[#d5ad5c]">+</span></h4>
-                                    <p className="text-sm font-bold text-gray-400 uppercase tracking-widest relative z-10">Wealth Recovered</p>
+                                    <h4 className="font-black text-4xl text-white mb-2 tracking-tight relative z-10">5000<span className="text-[#d5ad5c]">+</span></h4>
+                                    <p className="text-sm font-bold text-gray-400 uppercase tracking-widest relative z-10">Clients Served</p>
                                 </div>
                             </div>
                         </div>
@@ -125,7 +125,7 @@ export default function AboutPage() {
                             </div>
                             <h3 className="text-3xl font-bold mb-6 text-white group-hover:text-[#d5ad5c] transition-colors relative z-10">Our Mission</h3>
                             <p className="text-gray-400 leading-relaxed text-xl font-light relative z-10">
-                                To empower investors and their families by radically simplifying financial recovery processes, ensuring that absolutely no rightful wealth remains unclaimed or permanently forgotten due to procedural complexities.
+                                To empower businesses and individuals by simplifying financial and regulatory processes, ensuring complete compliance and optimal financial outcomes.
                             </p>
                         </div>
 
@@ -135,7 +135,7 @@ export default function AboutPage() {
                             </div>
                             <h3 className="text-3xl font-bold mb-6 text-white group-hover:text-[#d5ad5c] transition-colors relative z-10">Our Vision</h3>
                             <p className="text-gray-400 leading-relaxed text-xl font-light relative z-10">
-                                To be universally recognized as India&apos;s most trusted, transparent, and efficient advisory for asset recovery—renowned for our unmatched integrity, deep regulatory expertise, and fiercely client-centric approach.
+                                To be recognized as India&apos;s most trusted and comprehensive financial advisory—renowned for our expertise, integrity, and client-centric approach across all domains of financial and corporate services.
                             </p>
                         </div>
                     </div>
@@ -153,10 +153,10 @@ export default function AboutPage() {
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-6 mt-10">
                         {[
-                            { title: "Deep Regulatory Knowledge", desc: "Decades of experience navigating SEBI, ROC, and IEPF frameworks rapidly.", icon: FileText },
-                            { title: "End-to-End Support", desc: "From drafting affidavits to securing final credit, we handle the entire lifecycle.", icon: ShieldCheck },
-                            { title: "Transparent Pricing", desc: "No hidden charges whatsoever. We strictly operate on a clear, success-aligned fee structure.", icon: ShieldCheck },
-                            { title: "High Success Rate", desc: "A proven, documented track record of resolving the most convoluted and forgotten cases.", icon: TrendingUp }
+                            { title: "Deep Regulatory Knowledge", desc: "Decades of experience navigating SEBI, MCA, RBI, and Income Tax frameworks.", icon: FileText },
+                            { title: "End-to-End Support", desc: "From initial consultation to final resolution, we handle the complete lifecycle.", icon: ShieldCheck },
+                            { title: "Transparent Pricing", desc: "No hidden charges. We operate on a clear, upfront fee structure.", icon: ShieldCheck },
+                            { title: "High Success Rate", desc: "A proven track record of delivering results across diverse financial engagements.", icon: TrendingUp }
                         ].map((item, idx) => (
                             <div
                                 key={idx}
@@ -205,10 +205,10 @@ export default function AboutPage() {
 
                         <div className="relative z-10 max-w-4xl mx-auto">
                             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 leading-[1.2] tracking-tight text-shadow-sm">
-                                Ready to Claim Your Assets?
+                                Ready to Get Started?
                             </h2>
                             <p className="text-lg md:text-xl text-yellow-50 mb-10 font-medium px-4 max-w-2xl mx-auto">
-                                Don&apos;t let your hard-earned money go unclaimed. Contact our premium advisory team today for a free consultation.
+                                Contact our expert team today for a free consultation on any financial or compliance matter.
                             </p>
 
                             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

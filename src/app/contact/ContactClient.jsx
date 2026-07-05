@@ -91,7 +91,7 @@ export default function ContactClient() {
                         </h1>
 
                         <p className="text-base md:text-lg lg:text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed font-light mb-8 px-2">
-                            Have questions about IEPF recovery, share transmission or dematerialisation? Our experts are standing by to help.
+                            Have questions about taxation, compliance, or corporate law? Our experts are standing by to help.
                         </p>
 
                         {/* Trust Badges */}
@@ -133,7 +133,7 @@ export default function ContactClient() {
                             {/* Contact Info Cards */}
                             <div className="space-y-4">
                                 {[
-                                    { icon: <Phone className="h-5 w-5" />, title: "WhatsApp", content: "Chat with us", link: `https://wa.me/${siteConfig.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent('Hello! I would like a free consultation regarding my share/dividend recovery case. Please assist.')}` },
+                                    { icon: <Phone className="h-5 w-5" />, title: "WhatsApp", content: "Chat with us", link: `https://wa.me/${siteConfig.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent('Hello! I would like a free financial consultation. Please assist.')}` },
                                     { icon: <Mail className="h-5 w-5" />, title: "Email Us", content: siteConfig.email, link: `mailto:${siteConfig.email}` },
                                     { icon: <MapPin className="h-5 w-5" />, title: "Visit Us", content: siteConfig.address, link: null },
                                     { icon: <Clock className="h-5 w-5" />, title: "Business Hours", content: "Mon – Sat: 10:00 AM – 7:00 PM", link: null },
@@ -176,7 +176,7 @@ export default function ContactClient() {
                                             <h3 className="text-2xl font-black text-white mb-2">Prefer WhatsApp?</h3>
                                             <p className="text-green-100 text-sm mb-5 font-light">Chat directly with our recovery experts — no waiting, no IVR.</p>
                                             <button
-                                                onClick={() => window.open(`https://wa.me/${siteConfig.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent('Hello! I would like a free consultation regarding my share/dividend recovery case. Please assist.')}`, '_blank')}
+                                                onClick={() => window.open(`https://wa.me/${siteConfig.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent('Hello! I would like a free financial consultation. Please assist.')}`, '_blank')}
                                                 className="relative bg-white text-[#128c3e] font-black px-8 py-3 rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all flex items-center gap-2 animate-[pulse_3s_ease-in-out_infinite]"
                                             >
                                                 <Image src="/whatsapp.png" alt="WhatsApp" width={24} height={24} className="mr-2" /> Chat on WhatsApp Now

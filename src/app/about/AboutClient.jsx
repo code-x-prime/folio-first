@@ -37,16 +37,16 @@ export default function About() {
                     >
                         <div className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white/5 border border-white/10 backdrop-blur-md mb-10 mx-auto">
                             <span className="flex h-2 w-2 rounded-full bg-[#d5ad5c] animate-pulse"></span>
-                            <span className="text-sm font-bold text-[#d5ad5c] tracking-widest uppercase">The Premier Advisory</span>
+                            <span className="text-sm font-bold text-[#d5ad5c] tracking-widest uppercase">A Trusted Advisory</span>
                         </div>
 
                         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white leading-[1.1] mb-6 tracking-tight drop-shadow-lg">
-                            Pioneers in <br />
-                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#d5ad5c] via-yellow-400 to-[#d5ad5c] italic pr-2">Wealth Recovery</span>
+                            Comprehensive <br />
+                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#d5ad5c] via-yellow-400 to-[#d5ad5c] italic pr-2">Financial Solutions</span>
                         </h1>
 
                         <p className="text-base md:text-xl lg:text-2xl text-gray-400 max-w-2xl mx-auto leading-relaxed font-light px-2">
-                            Your trusted, secure, and expert partner in navigating the complex landscape of financial recovery and share transmission.
+                            Your trusted partner for taxation, compliance, audit, corporate law, and comprehensive financial advisory.
                         </p>
                     </motion.div>
                 </div>
@@ -104,17 +104,17 @@ export default function About() {
                             <SectionHeading
                                 subtitle="Our Story"
                                 align="left"
-                                description="Folio First Consulting was founded with a singular mission: to simplify the intricate and often frustrating process of recovering unclaimed financial assets."
+                                description="Folio First Consulting was founded with a mission to simplify complex financial and regulatory processes for businesses and individuals."
                             >
-                                Committed to <br />Unlocking Your Wealth
+                                Committed to <br />Your Financial Success
                             </SectionHeading>
 
                             <div className="space-y-4 text-gray-600 text-lg leading-relaxed mb-8">
                                 <p>
-                                    We understand that dealing with dormant share certificates, bureaucratic RTAs, and complex regulatory bodies like the IEPF can be overwhelming for individuals and families.
+                                    We understand that navigating taxation, compliance, audits, and corporate regulations can be overwhelming for businesses and individuals alike.
                                 </p>
                                 <p>
-                                    With over a decade of deep regulatory experience in the financial consultancy sector, our dedicated team of CAs and lawyers has successfully recovered crores of rupees for families across India and assisted corporations in navigating audits, taxation, and legal proceedings. We believe that what is rightfully yours should be in your hands—and we leave no stone unturned to make that happen legally and swiftly.
+                                    With over a decade of deep regulatory experience, our dedicated team of CAs and lawyers has helped thousands of clients across India with taxation, statutory compliance, corporate law matters, and financial advisory. We believe that expert guidance should be accessible—and we work tirelessly to deliver results with integrity and transparency.
                                 </p>
                             </div>
 
@@ -132,8 +132,8 @@ export default function About() {
                                     <div className="h-14 w-14 rounded-2xl bg-white/10 flex items-center justify-center mb-6 border border-white/5 relative z-10">
                                         <TrendingUp className="h-6 w-6 text-[#d5ad5c]" />
                                     </div>
-                                    <h4 className="font-black text-4xl text-white mb-2 tracking-tight relative z-10">100Cr<span className="text-[#d5ad5c]">+</span></h4>
-                                    <p className="text-sm font-bold text-gray-400 uppercase tracking-widest relative z-10">Wealth Recovered</p>
+                                    <h4 className="font-black text-4xl text-white mb-2 tracking-tight relative z-10">5000<span className="text-[#d5ad5c]">+</span></h4>
+                                    <p className="text-sm font-bold text-gray-400 uppercase tracking-widest relative z-10">Clients Served</p>
                                 </div>
                             </div>
                         </motion.div>
@@ -166,7 +166,7 @@ export default function About() {
                             </div>
                             <h3 className="text-3xl font-bold mb-6 text-white group-hover:text-[#d5ad5c] transition-colors relative z-10">Our Mission</h3>
                             <p className="text-gray-400 leading-relaxed text-xl font-light relative z-10">
-                                To empower investors and their families by radically simplifying financial recovery processes, ensuring that absolutely no rightful wealth remains unclaimed or permanently forgotten due to procedural complexities.
+                                To empower businesses and individuals by simplifying financial and regulatory processes, ensuring complete compliance and optimal financial outcomes.
                             </p>
                         </motion.div>
 
@@ -187,7 +187,7 @@ export default function About() {
                             </div>
                             <h3 className="text-3xl font-bold mb-6 text-white group-hover:text-[#d5ad5c] transition-colors relative z-10">Our Vision</h3>
                             <p className="text-gray-400 leading-relaxed text-xl font-light relative z-10">
-                                To be universally recognized as India&apos;s most trusted, transparent, and efficient advisory for asset recovery—renowned for our unmatched integrity, deep regulatory expertise, and fiercely client-centric approach.
+                                To be recognized as India&apos;s most trusted and comprehensive financial advisory—renowned for our expertise, integrity, and client-centric approach across all domains of financial and corporate services.
                             </p>
                         </motion.div>
 
@@ -209,10 +209,10 @@ export default function About() {
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-6 mt-10">
                         {[
-                            { title: "Deep Regulatory Knowledge", desc: "Decades of experience navigating SEBI, ROC, and IEPF frameworks rapidly.", icon: FileText },
-                            { title: "End-to-End Support", desc: "From drafting affidavits to securing final credit, we handle the entire lifecycle.", icon: ShieldCheck },
-                            { title: "Transparent Pricing", desc: "No hidden charges whatsoever. We strictly operate on a clear, success-aligned fee structure.", icon: CheckCircle2 },
-                            { title: "High Success Rate", desc: "A proven, documented track record of resolving the most convoluted and forgotten cases.", icon: TrendingUp }
+                            { title: "Deep Regulatory Knowledge", desc: "Decades of experience navigating SEBI, MCA, RBI, and Income Tax frameworks.", icon: FileText },
+                            { title: "End-to-End Support", desc: "From initial consultation to final resolution, we handle the complete lifecycle.", icon: ShieldCheck },
+                            { title: "Transparent Pricing", desc: "No hidden charges. We operate on a clear, upfront fee structure.", icon: CheckCircle2 },
+                            { title: "High Success Rate", desc: "A proven track record of delivering results across diverse financial engagements.", icon: TrendingUp }
                         ].map((item, idx) => (
                             <motion.div
                                 key={idx}
@@ -276,17 +276,17 @@ export default function About() {
 
                         <div className="relative z-10 max-w-4xl mx-auto">
                             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 leading-[1.2] tracking-tight text-shadow-sm">
-                                Ready to Claim Your Assets?
+                                Ready to Get Started?
                             </h2>
                             <p className="text-lg md:text-xl text-yellow-50 mb-10 font-medium px-4 max-w-2xl mx-auto">
-                                Don&apos;t let your hard-earned money go unclaimed. Contact our premium advisory team today for a free consultation.
+                                Contact our expert team today for a free consultation on any financial or compliance matter.
                             </p>
 
                             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                                 <Button
                                     size="lg"
                                     className="bg-white text-[#b38e4a] hover:bg-[#FAFAFA] h-14 sm:h-16 rounded-full px-8 sm:px-10 text-lg sm:text-xl font-black shadow-[0_10px_20px_rgba(0,0,0,0.15)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.2)] hover:-translate-y-1 transition-all flex items-center justify-center gap-3 w-full sm:w-auto"
-                                    onClick={() => window.open(`https://wa.me/${siteConfig.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent('Hello! I would like a free consultation regarding my share/dividend recovery case. Please assist.')}`, '_blank')}
+                                    onClick={() => window.open(`https://wa.me/${siteConfig.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent('Hello! I would like a free financial consultation. Please assist.')}`, '_blank')}
                                 >
                                     <MessageCircle className="h-6 w-6 text-[#25D366]" strokeWidth={2.5} /> Talk to an Expert
                                 </Button>

@@ -60,7 +60,7 @@ export default function ServiceDetailClient({ service, services }) {
                             <Button 
                                 size="lg" 
                                 className="bg-[#d5ad5c] hover:bg-[#b38e4a] text-white h-16 rounded-full px-8 text-lg font-black shadow-[0_10px_20px_rgba(213,173,92,0.3)] hover:shadow-[0_15px_30px_rgba(213,173,92,0.4)] hover:-translate-y-1 transition-all flex items-center gap-3 w-full sm:w-auto"
-                                onClick={() => window.open(`https://wa.me/${siteConfig.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent('Hello! I would like a free assessment for my share/dividend recovery case. Please assist.')}`, '_blank')}
+                                onClick={() => window.open(`https://wa.me/${siteConfig.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent('Hello! I would like a free financial consultation. Please assist.')}`, '_blank')}
                             >
                                 <MessageCircle className="h-6 w-6" strokeWidth={2.5}/> Free Assessment
                             </Button>
@@ -68,7 +68,7 @@ export default function ServiceDetailClient({ service, services }) {
                                 size="lg" 
                                 variant="outline" 
                                 className="bg-white/10 border-white/20 text-white hover:bg-white/20 h-16 rounded-full px-8 text-lg font-bold backdrop-blur-md transition-all flex items-center gap-3 w-full sm:w-auto"
-                                onClick={() => window.open(`https://wa.me/${siteConfig.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent('Hello! I would like to consult about my share/dividend recovery case. Please assist.')}`, '_blank')}
+                                onClick={() => window.open(`https://wa.me/${siteConfig.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent('Hello! I would like a free financial consultation. Please assist.')}`, '_blank')}
                             >
                                 <Clock className="h-5 w-5" /> Consult Now
                             </Button>

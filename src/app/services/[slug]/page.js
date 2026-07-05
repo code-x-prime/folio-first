@@ -17,8 +17,8 @@ export async function generateMetadata({ params }) {
 
     return {
         title: `${service.title} in India | Folio First Consulting`,
-        description: `Expert assistance for ${service.title}. Recover your wealth securely. We handle IEPF claims, share recovery, and dematerialisation with ease.`,
-        keywords: `${service.title}, IEPF, share recovery, dematerialisation, Folio First Consulting, wealth recovery India, financial consulting`,
+        description: `Expert assistance for ${service.title}. Comprehensive financial consulting services tailored to your needs. Free consultation.`,
+        keywords: `${service.title}, Folio First Consulting, financial consulting, taxation, compliance, audit, corporate law`,
         alternates: {
             canonical: canonicalUrl,
         },
@@ -27,7 +27,7 @@ export async function generateMetadata({ params }) {
             url: canonicalUrl,
             siteName: "Folio First Consulting",
             title: `${service.title} in India | Folio First Consulting`,
-            description: `Expert assistance for ${service.title}. Recover your wealth securely. We handle IEPF claims, share recovery, and dematerialisation with ease.`,
+            description: `Expert assistance for ${service.title}. Comprehensive financial consulting services tailored to your needs.`,
             images: [
                 {
                     url: service.heroImage || '/images/og-default.jpg',
@@ -40,7 +40,7 @@ export async function generateMetadata({ params }) {
         twitter: {
             card: "summary_large_image",
             title: `${service.title} in India | Folio First Consulting`,
-            description: `Expert assistance for ${service.title}. We handle IEPF claims, share recovery, and dematerialisation with ease.`,
+            description: `Expert assistance for ${service.title}. Comprehensive financial consulting services.`,
             images: [service.heroImage || '/images/og-default.jpg'],
         },
         robots: {

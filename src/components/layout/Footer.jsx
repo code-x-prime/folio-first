@@ -17,7 +17,7 @@ const quickLinks = [
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
-  const WhatsAppLink = `https://wa.me/${siteConfig.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent('Hello! I would like a free consultation regarding my share/dividend recovery case. Please assist.')}`;
+  const WhatsAppLink = `https://wa.me/${siteConfig.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent('Hello! I would like a free financial consultation. Please assist.')}`;
 
   return (
     <footer className="relative bg-[#1A1A1A] text-gray-300 pt-16 md:pt-24 border-t-2 border-yellow-500/20 overflow-hidden">
@@ -83,7 +83,7 @@ export default function Footer() {
               />
             </div>
             <p className="leading-relaxed text-gray-400 text-[15px] pr-4">
-              India&apos;s premier advisory firm dedicated to resolving complex share-related issues, taxation, audit, and corporate law matters across India.
+              India&apos;s premier financial advisory firm offering comprehensive services in taxation, compliance, audit, and corporate law across India.
             </p>
 
             {/* Social Links */}

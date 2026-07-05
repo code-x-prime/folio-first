@@ -21,7 +21,7 @@ export default function FloatingButtons() {
                   initial={{ scale: 0 }}
                   animate={{ scale: 1 }}
                   transition={{ delay: 1.1 }}
-                  href={`https://wa.me/${siteConfig.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent('Hello! I would like a free consultation regarding my share/dividend recovery case. Please assist.')}`}
+                  href={`https://wa.me/${siteConfig.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent('Hello! I would like a free consultation regarding your services. Please assist.')}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="relative z-10 bg-[#25D366] text-white p-3 rounded-full shadow-[0_8px_30px_rgba(37,211,102,0.4)] hover:bg-[#128C7E] hover:scale-110 transition-all duration-300 flex items-center justify-center"

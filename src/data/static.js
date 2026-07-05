@@ -3,7 +3,7 @@ import { FileText, BarChart, ShieldCheck, RefreshCw, Scale, Globe, TrendingUp } 
 export const siteConfig = {
     name: "Folio First Consulting",
     url: "https://foliofirstconsulting.com",
-    description: "India's leading consultancy for IEPF recovery, share transmission, and dematerialisation services.",
+    description: "India's leading financial advisory firm offering comprehensive services in taxation, compliance, audit, corporate law, and financial consulting.",
     email: "foliofirstconsulting@gmail.com",
     phone: "+91 9910908064",
     address: "Gurgaon, India",
@@ -22,7 +22,7 @@ export const services = [
         icon: ShieldCheck,
         title: "Compliance and Business Support",
         shortDescription: "Comprehensive regulatory compliance, corporate governance, and business setup/support services.",
-        heroImage: "/images/compliance-support.jpg",
+        heroImage: "/images/who-we-are.jpg",
         overview: "Compliance and Business Support ensures that your business operates seamlessly within the legal frameworks established by the Ministry of Corporate Affairs (MCA), SEBI, RBI, and other regulatory bodies in India. From business incorporation, licensing, and secretarial compliance to annual filings and corporate governance, we provide end-to-end support to let you focus on growth while we handle the regulatory burdens.",
         whoNeeds: [
             "Startups and new business ventures looking to incorporate.",
@@ -60,7 +60,7 @@ export const services = [
         icon: FileText,
         title: "Direct Taxation",
         shortDescription: "Expert corporate and personal tax planning, return filing, and representation before income tax authorities.",
-        heroImage: "/images/direct-taxation.jpg",
+        heroImage: "/images/hero-section.jpg",
         overview: "Direct Taxation services cover income tax planning, compliance, advisory, and litigation support for corporate entities, firms, and individuals. In an ever-evolving tax landscape, our goal is to minimize tax liabilities while ensuring complete compliance with the Income Tax Act, 1961. We assist with tax audits, transfer pricing, filing returns, and representing clients before the Income Tax Department.",
         whoNeeds: [
             "Corporates requiring Statutory Tax Audits and Transfer Pricing audits.",
@@ -98,7 +98,7 @@ export const services = [
         icon: RefreshCw,
         title: "GST & Indirect Tax",
         shortDescription: "Seamless GST registration, monthly return filing, input tax credit audits, and representation in tax disputes.",
-        heroImage: "/images/gst-indirect-tax.jpg",
+        heroImage: "/images/about-page.jpg",
         overview: "Goods and Services Tax (GST) and other indirect taxes impact almost every transaction in business. We provide end-to-end assistance in GST registration, filing monthly and annual returns, auditing input tax credits (ITC), advising on complex transaction structures, and representation during audits and departmental inquiries.",
         whoNeeds: [
             "Manufacturers, traders, and service providers meeting GST thresholds.",
@@ -135,38 +135,37 @@ export const services = [
         slug: "audit-and-assurance",
         icon: ShieldCheck,
         title: "Audit & Assurance",
-        shortDescription: "Comprehensive statutory audit, internal audit, and assurance services ensuring transparency and regulatory compliance.",
+        shortDescription: "Comprehensive statutory audit, tax audit, internal audit, and financial review services to build trust and ensure integrity.",
         heroImage: "/images/audit-assurance.jpg",
-        overview: "Audit and Assurance services provide independent verification of financial statements, internal controls, and compliance frameworks. Our team of qualified Chartered Accountants delivers statutory audits, internal audits, tax audits, and special purpose audits, ensuring accuracy, transparency, and adherence to applicable accounting standards and regulatory requirements.",
+        overview: "Audit & Assurance services provide credibility to your financial statements, offering stakeholders and investors confidence in your business operations. Our professional team conducts statutory audits under the Companies Act, tax audits under the Income Tax Act, internal audits to assess and mitigate operational risks, and specialized reviews tailored to your business needs.",
         whoNeeds: [
-            "Companies requiring statutory audits under the Companies Act.",
-            "Businesses needing internal audit and risk assessment.",
-            "Entities subject to tax audits under Section 44AB of the Income Tax Act.",
-            "Organizations seeking assurance for investors, lenders, or regulatory bodies."
+            "Companies requiring mandatory Statutory Audits under the Companies Act.",
+            "Businesses requiring internal control reviews and risk assessment.",
+            "Organizations requiring special audits or stock audits for bank facilities.",
+            "Non-profit entities and trusts requiring statutory review."
         ],
         benefits: [
-            "Enhanced credibility and stakeholder confidence in financial statements.",
-            "Early detection of fraud, errors, and internal control weaknesses.",
-            "Compliance with statutory and regulatory audit requirements.",
-            "Improved operational efficiency through audit recommendations."
+            "Assurance of financial accuracy and compliance with accounting standards.",
+            "Identification of operational inefficiencies and internal control gaps.",
+            "Enhanced credibility with lenders, investors, and regulators.",
+            "Mitigation of fraud and financial irregularities."
         ],
         documents: [
-            "Financial Statements (Balance Sheet, Profit & Loss, Cash Flow)",
-            "Trial Balance and General Ledger",
-            "Bank Statements and Reconciliations",
-            "Invoices and Supporting Vouchers",
-            "Board Resolutions and Minutes of Meetings",
-            "Previous Audit Reports and Management Letters"
+            "Trial Balance & Ledgers",
+            "Bank Reconciliation Statements",
+            "Fixed Asset Register",
+            "Purchase & Sales Invoices with supporting documents",
+            "Previous Audit Reports & Statutory Registers"
         ],
         process: [
-            { title: "Planning & Risk Assessment", description: "Understanding business operations, identifying risk areas, and planning audit procedures.", duration: "3-5 Days" },
-            { title: "Fieldwork & Testing", description: "Performing substantive tests, vouching, verification, and internal control testing.", duration: "10-15 Days" },
-            { title: "Review & Analysis", description: "Reviewing findings, evaluating compliance, and assessing financial statement accuracy.", duration: "3-5 Days" },
-            { title: "Report Issuance", description: "Issuing the audit report with observations, recommendations, and opinion.", duration: "2-3 Days" }
+            { title: "Planning & Risk Assessment", description: "Understanding business operations and identifying key audit risk areas.", duration: "3-5 Days" },
+            { title: "Fieldwork & Testing", description: "Verifying transactions, ledger balances, and physical verification of assets.", duration: "5-10 Days" },
+            { title: "Discussion & Review", description: "Discussing findings and management letter points with the management.", duration: "2-3 Days" },
+            { title: "Reporting & Sign-off", description: "Issuing the Audit Report and signing financial statements.", duration: "2-4 Days" }
         ],
         faq: [
-            { question: "What is a statutory audit?", answer: "A statutory audit is a legally mandated review of a company's financial statements to ensure they present a true and fair view of the company's financial position." },
-            { question: "Is an internal audit mandatory?", answer: "Internal audit is mandatory for certain classes of companies under the Companies Act, 2013, including listed companies and specified public/private companies meeting certain thresholds." }
+            { question: "What is a Statutory Audit?", answer: "It is an audit mandated by law (the Companies Act) to check if a company's financial records present a true and fair view of its financial position." },
+            { question: "What is an Internal Audit?", answer: "An internal audit evaluates a company's internal controls, corporate governance, and accounting processes to improve efficiency." }
         ]
     },
     {
@@ -175,7 +174,7 @@ export const services = [
         icon: TrendingUp,
         title: "Risk Advisory & Transaction Advisory",
         shortDescription: "Comprehensive risk assessment, due diligence, and transaction advisory for mergers, acquisitions, and business restructuring.",
-        heroImage: "/images/risk-transaction-advisory.jpg",
+        heroImage: "/images/why-choose.jpg",
         overview: "Risk Advisory and Transaction Advisory services help organizations identify, evaluate, and manage financial, operational, and strategic risks. Additionally, we provide critical support during corporate transactions, including financial and legal due diligence, valuation, deal structuring, and transition support for mergers, acquisitions, and joint ventures.",
         whoNeeds: [
             "Businesses planning mergers, acquisitions, or joint ventures.",
@@ -213,7 +212,7 @@ export const services = [
         icon: Scale,
         title: "DRT & NCLT Cases",
         shortDescription: "Legal representation and advisory services for cases under DRT, NCLT, and IBC (Insolvency and Bankruptcy Code).",
-        heroImage: "/images/drt-nclt.jpg",
+        heroImage: "/images/acknowledgment-debt-ibc.jpg",
         overview: "DRT (Debt Recovery Tribunal) and NCLT (National Company Law Tribunal) handle highly complex legal matters relating to debt recovery, insolvency, bankruptcy, and corporate disputes. Our team of experienced legal professionals and advocates represents financial institutions, corporate debtors, creditors, and shareholders, ensuring robust legal representation and resolution under the Insolvency and Bankruptcy Code (IBC) and other corporate laws.",
         whoNeeds: [
             "Companies facing insolvency proceedings initiated by operational or financial creditors.",
@@ -251,7 +250,7 @@ export const services = [
         icon: Globe,
         title: "NRI Services",
         shortDescription: "Specialized financial advisory, tax compliance, capital gains management, and estate planning for Non-Resident Indians.",
-        heroImage: "/images/nri-services.jpg",
+        heroImage: "/images/sebi-window.jpg",
         overview: "NRI Services cater to the unique financial and legal requirements of Non-Resident Indians. We offer expert guidance on taxation of Indian income, claiming TDS refunds, managing capital gains on property sales, setting up and managing NRE/NRO/FCNR accounts, obtaining PAN, compliance with FEMA (Foreign Exchange Management Act), and reclaiming unclaimed investments or inherited properties in India.",
         whoNeeds: [
             "Non-Resident Indians with assets, income, or investments in India.",
@@ -371,7 +370,7 @@ export const services = [
         icon: Scale,
         title: "Corporate and Allied Laws",
         shortDescription: "Expert legal advisory on the Companies Act, LLP Act, FEMA regulations, and general corporate contract drafting.",
-        heroImage: "/images/corporate-laws.jpg",
+        heroImage: "/images/nomination-article.jpg",
         overview: "Corporate & Allied Laws encompass the legal framework governing corporate entities in India. We offer legal advisory on the Companies Act, LLP Act, FEMA, contract drafting, joint venture agreements, secretarial audits, and compliance management, ensuring your business stays protected and fully compliant.",
         whoNeeds: [
             "Firms seeking corporate restructuring, mergers, or buybacks.",
@@ -401,45 +400,6 @@ export const services = [
         faq: [
             { question: "What is FEMA?", answer: "The Foreign Exchange Management Act (FEMA) regulates all inbound and outbound foreign exchange transactions, including foreign investments and NRI remittances." },
             { question: "Why is a Shareholders' Agreement (SHA) crucial?", answer: "An SHA defines the rights, duties, and privileges of shareholders, providing clear dispute resolution and exit mechanisms to protect business partners." }
-        ]
-    },
-    {
-        id: "kyc",
-        slug: "kyc-update",
-        icon: ShieldCheck,
-        title: "KYC & Details Update",
-        shortDescription: "Update your signature, address, and bank details to prevent freezing of folios.",
-        heroImage: "/images/kyc-detail-update.jpg",
-        overview: "SEBI has made it mandatory to update PAN, KYC, and Nomination details for all physical shareholders. Failure to do so leads to freezing of folios, preventing you from receiving dividends or lodging grievances. We ensure your records are up-to-date and compliant with the latest regulatory norms.",
-        whoNeeds: [
-            "Shareholders with outdated address or bank records.",
-            "Individuals with signature mismatches.",
-            "Investors whose folios have been frozen (KYC non-compliant).",
-            "Anyone needing to add or change a nominee."
-        ],
-        benefits: [
-            "Unfreezing of blocked folios.",
-            "Receipt of pending dividends directly to bank.",
-            "Smooth processing of future requests.",
-            "Compliance with SEBI regulations."
-        ],
-        documents: [
-            "ISR-1 (Request for registering PAN/KYC)",
-            "ISR-2 (Signature Verification)",
-            "SH-13 (Nomination Form)",
-            "Self-attested PAN and Aadhar",
-            "Original Cancelled Cheque"
-        ],
-        process: [
-            "Record Analysis: checking the current status of your folio.",
-            "Form Filling: Accurate filling of ISR-1, ISR-2, and SH-13 forms.",
-            "Banker Attestation: Getting signature verification if signature has changed.",
-            "Submission: Sending documents to the RTA.",
-            "Confirmation: Ensuring the RTA updates the records in their system."
-        ],
-        faq: [
-            { question: "What is a frozen folio?", answer: "A folio where the RTA stops processing requests due to missing KYC documents." },
-            { question: "How do I change my address?", answer: "By submitting Form ISR-1 along with self-attested address proof." }
         ]
     }
 ];

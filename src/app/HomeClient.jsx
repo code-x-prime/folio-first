@@ -74,23 +74,23 @@ export default function Home() {
             >
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-[#d5ad5c]/40 shadow-md mb-8">
                 <span className="flex h-2 w-2 rounded-full bg-[#d5ad5c] animate-pulse"></span>
-                <span className="text-sm font-semibold text-[#232323]">India&apos;s Premier Recovery Advisory</span>
+                <span className="text-sm font-semibold text-[#232323]">India&apos;s Trusted Financial Advisory</span>
               </div>
 
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-[#232323] leading-[1.15] mb-5 tracking-tight">
-                Reclaim Your <br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#d5ad5c] to-yellow-600 drop-shadow-sm">Financial Legacy</span>
+                Expert Guidance for <br />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#d5ad5c] to-yellow-600 drop-shadow-sm">Your Financial Growth</span>
               </h1>
 
               <p className="text-base md:text-lg lg:text-xl text-gray-600 mb-8 leading-relaxed max-w-lg mx-auto lg:mx-0">
-                Navigate the bureaucratic maze of IEPF claims, share transmission, and corporate compliance with a dedicated team of CAs and lawyers. India&apos;s most trusted experts—effortless, secure, and fully guided.
+                Comprehensive financial consulting covering taxation, compliance, audit, corporate law, and advisory services. A dedicated team of CAs and lawyers—effortless, secure, and fully guided.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
                 <Button
                   size="lg"
                   className="bg-gradient-to-r from-[#232323] to-[#3a3a3a] hover:from-[#1a1a1a] hover:to-[#232323] text-white h-13 sm:h-14 px-7 rounded-full text-base md:text-lg shadow-[0_8px_30px_rgba(35,35,35,0.25)] hover:shadow-[0_12px_40px_rgba(35,35,35,0.45)] hover:-translate-y-0.5 hover:scale-[1.02] transition-all duration-300 w-full sm:w-auto py-2 md:py-0"
-                  onClick={() => window.open(`https://wa.me/${siteConfig.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent('Hello! I would like a free consultation regarding my share/dividend recovery case. Please assist.')}`, '_blank')}
+                  onClick={() => window.open(`https://wa.me/${siteConfig.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent('Hello! I would like a free financial consultation. Please assist.')}`, '_blank')}
                 >
                   Get Free Consultation <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
@@ -149,8 +149,8 @@ export default function Home() {
                       <TrendingUp className="h-6 w-6" />
                     </div>
                     <div>
-                      <p className="text-xs text-gray-500 font-bold uppercase tracking-wider mb-0.5">Assets Recovered</p>
-                      <p className="text-2xl font-black text-[#232323] tracking-tight">₹100Cr+</p>
+                      <p className="text-xs text-gray-500 font-bold uppercase tracking-wider mb-0.5">Clients Served</p>
+                      <p className="text-2xl font-black text-[#232323] tracking-tight">5000+</p>
                     </div>
                   </motion.div>
                 </div>
@@ -172,7 +172,7 @@ export default function Home() {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12 items-center">
             {[
               { icon: History, value: "10+", label: "Years Experience" },
-              { icon: TrendingUp, value: "₹100Cr+", label: "Assets Recovered" },
+              { icon: TrendingUp, value: "5000+", label: "Clients Served" },
               { icon: Briefcase, value: "1000+", label: "Successful Cases" },
               { icon: Smile, value: "99.8%", label: "Client Satisfaction" },
             ].map((stat, idx) => (
@@ -228,16 +228,16 @@ export default function Home() {
             >
               <span className="text-[#d5ad5c] font-black tracking-[0.2em] uppercase text-sm mb-6 block">Who We Are</span>
               <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-[#232323] leading-tight mb-8">
-                Your Trusted Partners in <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#d5ad5c] to-yellow-600 italic px-2">Wealth Recovery.</span>
+                Your Trusted Partners in <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#d5ad5c] to-yellow-600 italic px-2">Financial Excellence.</span>
               </h2>
 
               <blockquote className="text-xl sm:text-2xl md:text-3xl text-gray-400 font-light leading-snug mb-10 border-l-4 border-[#d5ad5c] pl-6 sm:pl-8 py-2 relative">
                 <span className="absolute -top-4 -left-3 text-6xl text-[#d5ad5c]/20 font-serif">&quot;</span>
-                We handle the complex bureaucratic maze so you can reclaim your rightful financial assets without stress or delays.
+                We simplify complex financial and regulatory processes so you can focus on what matters most—your growth.
               </blockquote>
 
               <p className="text-lg text-gray-600 mb-12 leading-relaxed">
-                Folio First Consulting is a specialized advisory firm backed by a dedicated team of CAs and lawyers. We focus entirely on retrieving seemingly lost investments, dealing with physical shares, managing IEPF claims, and offering corporate compliance and advisory. We bring clarity and results to a process that is famously opaque.
+                Folio First Consulting is a full-service financial advisory firm backed by a dedicated team of CAs and lawyers. We offer end-to-end support in taxation, compliance, audit, corporate law, and financial advisory—bringing clarity and results to every engagement.
               </p>
 
               <div className="grid grid-cols-2 gap-8 border-t border-[#d5ad5c]/20 pt-10">
@@ -273,13 +273,13 @@ export default function Home() {
                 Submit Your <span className="text-[#d5ad5c] italic pr-2">Query</span>
               </h2>
               <p className="text-xl text-gray-500 font-light leading-relaxed mb-12">
-                Get a free expert evaluation of your case. Our specialized team will review your details and contact you within 24 hours to architect the best recovery route.
+                Get a free expert evaluation of your case. Our team will review your details and contact you within 24 hours with the best approach.
               </p>
 
               <div className="space-y-6">
                 {[
                   { icon: ShieldCheck, title: "100% Confidential", desc: "Your data is handled with complete discretion." },
-                  { icon: Award, title: "Expert Assistance", desc: "Case handled by senior recovery architects." },
+                  { icon: Award, title: "Expert Assistance", desc: "Case handled by senior consultants." },
                   { icon: MessageCircle, title: "24/7 Support", desc: "Status updates via WhatsApp & Phone." },
                 ].map((item, i) => (
                   <div key={i} className="flex gap-4 items-start">
@@ -332,7 +332,7 @@ export default function Home() {
 
                 <div className="space-y-2">
                   <label className="text-xs font-black text-gray-400 uppercase tracking-widest px-1">Your Message / Case Details</label>
-                  <Textarea name="message" placeholder="Briefly describe your situation (company name, number of shares, folio number etc.)" className="min-h-[120px] bg-[#FAFAFA] border-transparent focus:border-[#d5ad5c] focus:ring-[#d5ad5c] rounded-xl px-6 py-4 resize-none" />
+                  <Textarea name="message" placeholder="Briefly describe your query or situation..." className="min-h-[120px] bg-[#FAFAFA] border-transparent focus:border-[#d5ad5c] focus:ring-[#d5ad5c] rounded-xl px-6 py-4 resize-none" />
                 </div>
 
                 <div className="flex flex-col sm:flex-row gap-4 pt-4">
@@ -348,7 +348,7 @@ export default function Home() {
                     type="button" 
                     variant="outline"
                     className="h-16 rounded-xl border-2 border-[#25D366] text-[#128c3e] hover:bg-[#25D366]/5 px-8 flex gap-3 font-bold"
-                    onClick={() => window.open(`https://wa.me/${siteConfig.phone.replace(/[^0-9]/g, '')}?text=Hi, I have a query regarding share recovery.`, '_blank')}
+                    onClick={() => window.open(`https://wa.me/${siteConfig.phone.replace(/[^0-9]/g, '')}?text=Hi, I have a financial query.`, '_blank')}
                   >
                     <Image src="/whatsapp.png" alt="WhatsApp" width={24} height={24} />
                     WhatsApp
@@ -410,7 +410,7 @@ export default function Home() {
               <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">Comprehensive<br />Financial Solutions</h2>
             </div>
             <p className="text-gray-400 text-lg max-w-md text-center md:text-right">
-              We provide end-to-end assistance for all types of share-related complexities and IEPF claims.
+              Comprehensive financial solutions tailored to your business and personal needs.
             </p>
           </div>
 
@@ -461,7 +461,7 @@ export default function Home() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 max-w-7xl">
           <div className="text-center mb-24 max-w-3xl mx-auto">
             <span className="text-[#d5ad5c] font-black tracking-[0.2em] uppercase text-sm mb-6 block">How it Works</span>
-            <h2 className="text-4xl md:text-5xl lg:text-7xl font-bold text-[#232323] tracking-tight">Streamlined 4-Step<br /> Recovery Process</h2>
+            <h2 className="text-4xl md:text-5xl lg:text-7xl font-bold text-[#232323] tracking-tight">Streamlined 4-Step<br /> Engagement Process</h2>
           </div>
 
           <div className="relative">
@@ -478,10 +478,10 @@ export default function Home() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-16">
               {[
-                { step: "01", title: "Consultation", desc: "Free initial assessment and roadmap generation for your specific case.", icon: MessageCircle },
-                { step: "02", title: "Documentation", desc: "Gathering, drafting, and legally verifying required affidavits and forms.", icon: FileText },
-                { step: "03", title: "Execution", desc: "Filing and actively liaising with IEPF authorities and tracking progress.", icon: ShieldCheck },
-                { step: "04", title: "Resolution", desc: "Shares successfully credited directly to your Demat and bank accounts.", icon: CheckCircle2 }
+                { step: "01", title: "Consultation", desc: "Free initial assessment and tailored strategy for your specific needs.", icon: MessageCircle },
+                { step: "02", title: "Documentation", desc: "Gathering, drafting, and verifying all required documents and forms.", icon: FileText },
+                { step: "03", title: "Execution", desc: "Filing, processing, and actively tracking progress with authorities.", icon: ShieldCheck },
+                { step: "04", title: "Resolution", desc: "Successful completion with results delivered directly to you.", icon: CheckCircle2 }
               ].map((item, index) => (
                 <motion.div
                   key={index}
@@ -580,7 +580,7 @@ export default function Home() {
                   </div>
                   <span className="text-white font-black text-xl">5.0</span>
                 </div>
-                <p className="text-gray-100 text-xl font-medium leading-relaxed italic">&quot;They recovered my grandfather&apos;s lost shares in less than half the estimated time. Exceptional service and total transparency.&quot;</p>
+                <p className="text-gray-100 text-xl font-medium leading-relaxed italic">&quot;Folio First Consulting helped us navigate a complex tax compliance issue with exceptional professionalism. Their expertise saved us significant time and money.&quot;</p>
                 <div className="mt-6 flex items-center gap-4">
                   <div className="h-12 w-12 rounded-full bg-white/20 border border-white/30"></div>
                   <div>
@@ -728,17 +728,17 @@ export default function Home() {
 
             <div className="relative z-10 max-w-4xl mx-auto">
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 leading-[1.2] tracking-tight text-shadow-sm">
-                Stop Waiting. <br />Start Recovering Your Wealth Now.
+                Start Your Financial Journey <br />With Expert Guidance.
               </h2>
               <p className="text-lg md:text-xl text-yellow-50 mb-10 font-medium px-4 max-w-2xl mx-auto">
-                Join thousands of satisfied clients who have successfully reclaimed their dormant assets with Folio First Consulting.
+                Join thousands of satisfied clients who trust Folio First Consulting for their financial and business needs.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <Button
                   size="lg"
                   className="bg-white text-[#b38e4a] hover:bg-[#FAFAFA] h-14 sm:h-16 rounded-full px-8 sm:px-10 text-lg sm:text-xl font-black shadow-[0_10px_20px_rgba(0,0,0,0.15)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.2)] hover:-translate-y-1 transition-all flex items-center justify-center gap-3 w-full sm:w-auto"
-                  onClick={() => window.open(`https://wa.me/${siteConfig.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent('Hello! I would like a free consultation regarding my share/dividend recovery case. Please assist.')}`, '_blank')}
+                  onClick={() => window.open(`https://wa.me/${siteConfig.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent('Hello! I would like a free financial consultation. Please assist.')}`, '_blank')}
                 >
                   <Image src="/whatsapp.png" alt="WhatsApp" width={28} height={28} /> Talk to an Expert
                 </Button>

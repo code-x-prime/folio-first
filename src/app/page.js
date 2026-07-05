@@ -2,23 +2,23 @@ import { siteConfig } from "@/data/static";
 import HomeClient from "./HomeClient";
 
 export const metadata = {
-  title: "Folio First Consulting | IEPF Recovery & Share Transmission Experts India",
-  description: "India's most trusted financial consulting firm for IEPF unclaimed dividend recovery, share transmission to legal heirs, and dematerialisation of physical shares. Free consultation. 10+ years experience. 500+ cases resolved.",
+  title: "Folio First Consulting | Financial Advisory, Taxation & Compliance India",
+  description: "India's leading financial advisory firm offering expert services in taxation, compliance, audit, corporate law, dematerialisation, and financial consulting. Free consultation. 10+ years experience.",
   alternates: {
     canonical: `${siteConfig.url || 'https://foliofirstconsulting.com'}`,
   },
-  keywords: "IEPF recovery, unclaimed dividend, share transmission, dematerialisation, financial consulting India, Folio First",
+  keywords: "financial consulting India, taxation, compliance, audit, corporate law, dematerialisation, Folio First",
   openGraph: {
-    title: "Folio First Consulting | IEPF Recovery & Share Transmission Experts",
-    description: "Recover unclaimed dividends, transfer inherited shares, and dematerialise physical certificates with India's most trusted advisory. Free consultation.",
+    title: "Folio First Consulting | Financial Advisory & Compliance Experts",
+    description: "Comprehensive financial consulting services including taxation, compliance, audit, corporate law, and advisory. Free consultation.",
     url: `${siteConfig.url || 'https://foliofirstconsulting.com'}`,
     siteName: "Folio First Consulting",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Folio First Consulting | IEPF Recovery Experts",
-    description: "India's trusted IEPF claim, share transmission and dematerialisation advisory. 10+ years, 500+ cases resolved.",
+    title: "Folio First Consulting | Financial Advisory Experts",
+    description: "India's trusted financial advisory for taxation, compliance, audit, and corporate law. 10+ years experience.",
   },
   robots: {
     index: true,
@@ -42,7 +42,7 @@ export default function HomePage() {
       "streetAddress": siteConfig.address,
     },
     "areaServed": "India",
-    "description": "Expert financial consulting for IEPF unclaimed dividend recovery, share transmission, and dematerialisation of physical shares.",
+    "description": "Expert financial consulting services in taxation, compliance, audit, corporate law, and financial advisory.",
     "openingHours": "Mo-Sa 10:00-19:00",
     "sameAs": [],
   };

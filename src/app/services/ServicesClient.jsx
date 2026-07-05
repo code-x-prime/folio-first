@@ -37,7 +37,7 @@ export default function Services() {
                         </h1>
 
                         <p className="text-base md:text-xl lg:text-2xl text-gray-400 max-w-2xl mx-auto leading-relaxed font-light px-2">
-                            Elite advisory for share recovery, transmission, and dematerialisation. We navigate the complexities so you can secure your legacy.
+                            Comprehensive financial advisory for taxation, compliance, audit, corporate law, and more. We deliver results with expertise and integrity.
                         </p>
                     </motion.div>
                 </div>
@@ -164,7 +164,7 @@ export default function Services() {
                                 <Button
                                     size="lg"
                                     className="bg-white text-[#b38e4a] hover:bg-[#FAFAFA] h-14 sm:h-16 rounded-full px-8 sm:px-10 text-lg sm:text-xl font-black shadow-[0_10px_20px_rgba(0,0,0,0.15)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.2)] hover:-translate-y-1 transition-all flex items-center justify-center gap-3 w-full sm:w-auto"
-                                    onClick={() => window.open(`https://wa.me/${siteConfig.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent('Hello! I would like a free consultation regarding my share/dividend recovery case. Please assist.')}`, '_blank')}
+                                    onClick={() => window.open(`https://wa.me/${siteConfig.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent('Hello! I would like a free financial consultation. Please assist.')}`, '_blank')}
                                 >
                                     <MessageCircle className="h-6 w-6 text-[#25D366]" strokeWidth={2.5} /> Free Assessment
                                 </Button>

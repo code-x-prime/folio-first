@@ -17,7 +17,7 @@ export const metadata = {
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
-  keywords: ["IEPF recovery consultant", "Dematerialisation of shares India", "Recover unclaimed dividends", "Transmission of shares after death"],
+  keywords: ["financial consulting India", "taxation services", "compliance advisory", "audit and assurance", "corporate law"],
   authors: [{ name: "Folio First Consulting" }],
   creator: "Folio First Consulting",
   openGraph: {

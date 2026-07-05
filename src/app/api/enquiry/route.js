@@ -5,7 +5,7 @@ import { siteConfig } from '@/data/static';
 export async function POST(req) {
   try {
     const body = await req.json();
-    const whatsappHref = `https://wa.me/${siteConfig.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent('Hello! I would like a free consultation regarding my share/dividend recovery case. Please assist.')}`;
+    const whatsappHref = `https://wa.me/${siteConfig.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent('Hello! I would like a free financial consultation. Please assist.')}`;
     const { name, mobile, email, service, message, source } = body;
 
     // Validate fields
@@ -129,7 +129,7 @@ export async function POST(req) {
                     </div>
                     <div class="footer">
                         <strong>Folio First Consulting</strong><br/>
-                        Expert Solutions for IEPF Recovery & Share Transmission<br/><br/>
+                        Expert Financial Advisory - Folio First Consulting<br/><br/>
                         <a href="https://foliofirstconsulting.com">Visit Website</a> | <a href="mailto:support@foliofirstconsulting.com">Contact Support</a><br/><br/>
                         &copy; ${new Date().getFullYear()} Folio First Consulting. All Rights Reserved.
                     </div>

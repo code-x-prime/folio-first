@@ -64,7 +64,7 @@ export default function Header() {
               </Link>
               <span className="w-px h-3 bg-white/20"></span>
               <a 
-                href={`https://wa.me/${siteConfig.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent('Hello! I would like a free consultation regarding my share/dividend recovery case. Please assist.')}`} 
+                href={`https://wa.me/${siteConfig.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent('Hello! I would like a free financial consultation. Please assist.')}`} 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="flex items-center gap-2 hover:text-green-400 transition-colors"
@@ -213,7 +213,7 @@ export default function Header() {
             {/* Desktop Right CTA - WhatsApp */}
             <div className="hidden lg:flex items-center ml-4">
               <a 
-                href={`https://wa.me/${siteConfig.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent('Hello! I would like a free consultation regarding my share/dividend recovery case. Please assist.')}`}
+                href={`https://wa.me/${siteConfig.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent('Hello! I would like a free financial consultation. Please assist.')}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="relative group"
@@ -351,7 +351,7 @@ export default function Header() {
                 </div>
 
                 <a 
-                  href={`https://wa.me/${siteConfig.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent('Hello! I would like a free consultation regarding my share/dividend recovery case. Please assist.')}`}
+                  href={`https://wa.me/${siteConfig.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent('Hello! I would like a free financial consultation. Please assist.')}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full"

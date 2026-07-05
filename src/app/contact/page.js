@@ -2,21 +2,21 @@ import { siteConfig } from "@/data/static";
 import ContactClient from "./ContactClient";
 
 export const metadata = {
-    title: "Contact Folio First Consulting | Free IEPF & Share Recovery Consultation",
-    description: "Get expert help with IEPF claims, share transmission and dematerialisation. Contact Folio First Consulting for a free consultation.",
+    title: "Contact Folio First Consulting | Free Financial Consultation",
+    description: "Get expert help with taxation, compliance, audit, and corporate law. Contact Folio First Consulting for a free consultation.",
     alternates: {
         canonical: `${siteConfig.url || 'https://foliofirstconsulting.com'}/contact`,
     },
     openGraph: {
-        title: "Contact Folio First Consulting | Free IEPF & Share Recovery Consultation",
-        description: "Get expert help with IEPF claims, share transmission and dematerialisation. Contact Folio First Consulting for a free consultation.",
+        title: "Contact Folio First Consulting | Free Financial Consultation",
+        description: "Get expert help with taxation, compliance, audit, and corporate law. Contact Folio First Consulting for a free consultation.",
         url: `${siteConfig.url || 'https://foliofirstconsulting.com'}/contact`,
         siteName: "Folio First Consulting",
     },
     twitter: {
         card: "summary_large_image",
         title: "Contact Folio First Consulting",
-        description: "Free consultation for IEPF claims, share recovery, and dematerialisation.",
+        description: "Free consultation for taxation, compliance, audit, and corporate law.",
     },
     robots: {
         index: true,

@@ -131,44 +131,6 @@ export const services = [
         ]
     },
     {
-        id: "audit-assurance",
-        slug: "audit-and-assurance",
-        icon: ShieldCheck,
-        title: "Audit & Assurance",
-        shortDescription: "Comprehensive statutory audit, tax audit, internal audit, and financial review services to build trust and ensure integrity.",
-        heroImage: "/images/audit-assurance.jpg",
-        overview: "Audit & Assurance services provide credibility to your financial statements, offering stakeholders and investors confidence in your business operations. Our professional team conducts statutory audits under the Companies Act, tax audits under the Income Tax Act, internal audits to assess and mitigate operational risks, and specialized reviews tailored to your business needs.",
-        whoNeeds: [
-            "Companies requiring mandatory Statutory Audits under the Companies Act.",
-            "Businesses requiring internal control reviews and risk assessment.",
-            "Organizations requiring special audits or stock audits for bank facilities.",
-            "Non-profit entities and trusts requiring statutory review."
-        ],
-        benefits: [
-            "Assurance of financial accuracy and compliance with accounting standards.",
-            "Identification of operational inefficiencies and internal control gaps.",
-            "Enhanced credibility with lenders, investors, and regulators.",
-            "Mitigation of fraud and financial irregularities."
-        ],
-        documents: [
-            "Trial Balance & Ledgers",
-            "Bank Reconciliation Statements",
-            "Fixed Asset Register",
-            "Purchase & Sales Invoices with supporting documents",
-            "Previous Audit Reports & Statutory Registers"
-        ],
-        process: [
-            { title: "Planning & Risk Assessment", description: "Understanding business operations and identifying key audit risk areas.", duration: "3-5 Days" },
-            { title: "Fieldwork & Testing", description: "Verifying transactions, ledger balances, and physical verification of assets.", duration: "5-10 Days" },
-            { title: "Discussion & Review", description: "Discussing findings and management letter points with the management.", duration: "2-3 Days" },
-            { title: "Reporting & Sign-off", description: "Issuing the Audit Report and signing financial statements.", duration: "2-4 Days" }
-        ],
-        faq: [
-            { question: "What is a Statutory Audit?", answer: "It is an audit mandated by law (the Companies Act) to check if a company's financial records present a true and fair view of its financial position." },
-            { question: "What is an Internal Audit?", answer: "An internal audit evaluates a company's internal controls, corporate governance, and accounting processes to improve efficiency." }
-        ]
-    },
-    {
         id: "risk-transaction-advisory",
         slug: "risk-advisory-and-transaction-advisory",
         icon: TrendingUp,

@@ -126,7 +126,7 @@ export default function ContactClient() {
                                     Free Consultation<br />With Our Experts
                                 </h2>
                                 <p className="text-gray-500 text-xl font-light leading-relaxed">
-                                    Whether you&apos;re recovering unclaimed dividends, transferring inherited shares, or dematerialising your portfolio — we provide targeted, discreet, and expert-led guidance.
+                                    Comprehensive financial consulting covering taxation, compliance, audit, corporate law, and advisory services. A dedicated team of CAs and lawyers—effortless, secure, and fully guided.
                                 </p>
                             </motion.div>
 

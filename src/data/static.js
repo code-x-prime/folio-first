@@ -172,38 +172,41 @@ export const services = [
         id: "drt-nclt-cases",
         slug: "drt-and-nclt-cases",
         icon: Scale,
-        title: "DRT & NCLT Cases",
-        shortDescription: "Legal representation and advisory services for cases under DRT, NCLT, and IBC (Insolvency and Bankruptcy Code).",
+        title: "DRT, NCLT & RERA Specialisation cases",
+        shortDescription: "Legal representation and advisory services for cases under DRT, NCLT, IBC (Insolvency and Bankruptcy Code), and RERA (Real Estate Regulatory Authority).",
         heroImage: "/images/acknowledgment-debt-ibc.jpg",
-        overview: "DRT (Debt Recovery Tribunal) and NCLT (National Company Law Tribunal) handle highly complex legal matters relating to debt recovery, insolvency, bankruptcy, and corporate disputes. Our team of experienced legal professionals and advocates represents financial institutions, corporate debtors, creditors, and shareholders, ensuring robust legal representation and resolution under the Insolvency and Bankruptcy Code (IBC) and other corporate laws.",
+        overview: "DRT (Debt Recovery Tribunal), NCLT (National Company Law Tribunal), and RERA (Real Estate Regulatory Authority) handle highly complex legal matters relating to debt recovery, insolvency, bankruptcy, real estate disputes, and corporate issues. Our team of experienced legal professionals and advocates represents financial institutions, builders, homebuyers, corporate debtors, creditors, and shareholders, ensuring robust legal representation and resolution under IBC, RERA, and other corporate laws.",
         whoNeeds: [
             "Companies facing insolvency proceedings initiated by operational or financial creditors.",
             "Creditors looking to recover debts through NCLT under the IBC.",
+            "Homebuyers and builders seeking dispute resolution under RERA.",
             "Corporate entities facing oppression or mismanagement disputes among shareholders.",
             "Individuals or firms dealing with debt recovery actions under SARFAESI before the DRT."
         ],
         benefits: [
-            "Robust legal representation by experienced NCLT/DRT advocates.",
+            "Robust legal representation by experienced NCLT, DRT, and RERA advocates.",
             "Strategic counsel on restructuring, settlement, and rehabilitation.",
-            "Speedy resolution of corporate disputes and creditor claims.",
-            "Full compliance with the Insolvency and Bankruptcy Code (IBC) guidelines."
+            "Speedy resolution of corporate disputes, property claims, and creditor claims.",
+            "Full compliance with the Insolvency and Bankruptcy Code (IBC) and RERA guidelines."
         ],
         documents: [
             "Loan Agreements & Security Documents",
+            "Property purchase agreements, allotment letters, and builder-buyer agreements (for RERA cases)",
             "Default Notices & Demand Notices (e.g., Section 8 IBC Notice)",
             "Financial Ledger Statements & Invoices",
             "Correspondence records regarding outstanding debts",
             "Petition/Application Forms and supporting affidavits"
         ],
         process: [
-            { title: "Case Evaluation", description: "Reviewing default notices, debt status, and identifying the legal path.", duration: "2-3 Days" },
+            { title: "Case Evaluation", description: "Reviewing default notices, debt/property status, and identifying the legal path.", duration: "2-3 Days" },
             { title: "Drafting Petitions", description: "Preparing petitions, applications, and supporting documents for filing.", duration: "4-7 Days" },
-            { title: "Filing & Admission", description: "Lodging the case in DRT or NCLT and representing in admission hearings.", duration: "Varies" },
+            { title: "Filing & Admission", description: "Lodging the case in DRT, NCLT, or RERA and representing in admission hearings.", duration: "Varies" },
             { title: "Hearings & Resolution", description: "Presenting arguments, managing cross-examination, and pursuing final orders.", duration: "Ongoing" }
         ],
         faq: [
             { question: "What is NCLT?", answer: "The National Company Law Tribunal is a quasi-judicial body that adjudicates matters relating to Indian companies, including corporate disputes and insolvency." },
-            { question: "What is the role of DRT?", answer: "The Debt Recovery Tribunal is established to facilitate fast-track recovery of debts due to banks and financial institutions." }
+            { question: "What is the role of DRT?", answer: "The Debt Recovery Tribunal is established to facilitate fast-track recovery of debts due to banks and financial institutions." },
+            { question: "What is the role of RERA?", answer: "The Real Estate Regulatory Authority (RERA) is established to regulate the real estate sector, protect the interests of homebuyers, and ensure speedy dispute resolution." }
         ]
     },
     {

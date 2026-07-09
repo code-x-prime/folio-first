@@ -42,7 +42,7 @@ export default function Footer() {
 
           <div className="relative z-10 text-center md:text-left">
             <h3 className="text-3xl md:text-4xl font-bold text-white mb-3">
-              Start Your Share Recovery Process Today
+              Start Your Free Consultation Today
             </h3>
             <p className="text-yellow-50 font-medium text-lg flex items-center justify-center md:justify-start gap-2">
               <CheckCircle2 className="h-5 w-5" />

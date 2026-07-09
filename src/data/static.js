@@ -172,7 +172,7 @@ export const services = [
         id: "drt-nclt-cases",
         slug: "drt-and-nclt-cases",
         icon: Scale,
-        title: "DRT, NCLT & RERA Specialisation cases",
+        title: "DRT, NCLT & RERA Cases",
         shortDescription: "Legal representation and advisory services for cases under DRT, NCLT, IBC (Insolvency and Bankruptcy Code), and RERA (Real Estate Regulatory Authority).",
         heroImage: "/images/acknowledgment-debt-ibc.jpg",
         overview: "DRT (Debt Recovery Tribunal), NCLT (National Company Law Tribunal), and RERA (Real Estate Regulatory Authority) handle highly complex legal matters relating to debt recovery, insolvency, bankruptcy, real estate disputes, and corporate issues. Our team of experienced legal professionals and advocates represents financial institutions, builders, homebuyers, corporate debtors, creditors, and shareholders, ensuring robust legal representation and resolution under IBC, RERA, and other corporate laws.",

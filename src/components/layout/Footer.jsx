@@ -83,7 +83,7 @@ export default function Footer() {
               />
             </div>
             <p className="leading-relaxed text-gray-400 text-[15px] pr-4">
-              India&apos;s premier financial advisory firm offering comprehensive services in taxation, compliance, audit, and corporate law across India.
+              India&apos;s financial advisory firm offering comprehensive services in taxation, compliance, audit, and corporate law across India.
             </p>
 
             {/* Social Links */}
